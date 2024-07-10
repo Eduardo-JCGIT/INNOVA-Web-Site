@@ -622,11 +622,9 @@
 /*Diseño de carta lic*/
 
 .card-adc-grid-cont{
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-  gap: 30px;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
 }
 
 .card-container-ind{
@@ -634,37 +632,51 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
   border-radius: 25px;
   overflow: hidden;
   cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.card-container-ind:hover{
+  background-image: url('../../img/of_acad/licenciaturas/backgroud_card_lic_hover.svg');
 }
 
 .flx-card-andc{
   display: flex;
   color: var(--white1);
   align-items: center;
+  width: 100%;
 }
 
 .card-ind-flex .card-adc-txt-dsg{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   width: 100%;
   padding-left: 15px;
 } 
 
+.card-adc-txt-dsg h1{
+  font-size: 2em;
+}
+
 .card-ind-flex .img-card-hover-adc{
-  width: 15vw;
+  width: 100%;
   border-radius: 25px;
   vertical-align: middle;
   filter: grayscale(80%);
   transition: all .4s ease-in-out;
 }
 
-.card-ind-flex .img-card-hover-adc:hover > .card-container-ind{
+.card-ind-flex{
+  width: 100%;
+}
+
+
+.card-container-ind .flx-card-andc:hover > .card-ind-flex .img-card-hover-adc{
   filter: grayscale(0%);
   transform: scale(1.1) translate(-10px, 15px);
 }
 
-.div2 .div3:hover > .div1{
-  
-} 
+
