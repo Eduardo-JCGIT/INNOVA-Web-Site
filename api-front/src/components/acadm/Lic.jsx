@@ -1,16 +1,17 @@
 import Nav from "../global/Nav"
-
+import CardLic from "./lyt_acadm/CardLic"
+import HeaderAcd from "./lyt_acadm/HeaderAcd"
 function Lic() {
 
     return(
         <div>
             <header>
             <Nav/>
-            <h1>Este es Licenciaturas</h1>
+            <HeaderAcd/>
             </header>
-        <body>
-
-        </body>
+        <section>
+        <CardLic/>
+        </section>
         </div>
     )
 }
