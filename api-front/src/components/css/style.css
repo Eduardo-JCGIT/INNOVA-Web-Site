@@ -615,7 +615,7 @@
 .header_cont_clm2{
   width: 90%;
   margin: auto;
-  padding: 2vw 0;
+  padding: 2vw 2vh;
 }
 
 
@@ -623,9 +623,10 @@
 
 .card-adc-grid-cont{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 25px;
 }
+
 
 .card-container-ind{
   background-image: url('../../img/of_acad/licenciaturas/backgroud_card_lic.svg');
@@ -636,6 +637,8 @@
   overflow: hidden;
   cursor: pointer;
   transition: all .5s ease-in-out;
+  width: 400px;
+  height: 400px;
 }
 
 .card-container-ind:hover{
@@ -643,40 +646,42 @@
 }
 
 .flx-card-andc{
-  display: flex;
-  color: var(--white1);
-  align-items: center;
-  width: 100%;
+width: 400px;
+height: 400px;
+overflow: hidden;
+margin: 20px;
+display: flex;
 }
 
-.card-ind-flex .card-adc-txt-dsg{
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  width: 100%;
-  padding-left: 15px;
-} 
-
-.card-adc-txt-dsg h1{
-  font-size: 2em;
+.txt-div-left{
+color: var(--white1);
+justify-content: center;
+display: flex;
+flex-direction: column;
 }
 
-.card-ind-flex .img-card-hover-adc{
-  width: 100%;
+.txt-div-left h1{
+  font-size: larger;
+}
+
+.txt-div-left p{
+font-size:medium;
+}
+
+/*Animacion de carta */
+
+
+.img-div-right img{
+  width: 220px;
   border-radius: 25px;
   vertical-align: middle;
   filter: grayscale(80%);
   transition: all .4s ease-in-out;
 }
 
-.card-ind-flex{
-  width: 100%;
-}
 
-
-.card-container-ind .flx-card-andc:hover > .card-ind-flex .img-card-hover-adc{
+.card-container-ind .flx-card-andc:hover > .img-div-right img{
   filter: grayscale(0%);
-  transform: scale(1.1) translate(-10px, 15px);
+  transform: scale(1.1) translate(-5px, 10px);
 }
-
 
