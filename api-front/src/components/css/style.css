@@ -571,7 +571,7 @@
   font-size: 1.4em;
 }
 
-/*Oferta academicas*/
+/*Oferta academicas licenciatura*/
 
 .header_dsg_of_acd{
   background-image: url('../../img/of_acad/licenciaturas/backgroud_lic.svg');
@@ -639,6 +639,7 @@
   transition: all .5s ease-in-out;
   width: 400px;
   height: 400px;
+  padding: 20px 0px 0px 20px;
 }
 
 .card-container-ind:hover{
@@ -649,15 +650,15 @@
 width: 400px;
 height: 400px;
 overflow: hidden;
-margin: 20px;
 display: flex;
 }
 
 .txt-div-left{
 color: var(--white1);
-justify-content: center;
-display: flex;
 flex-direction: column;
+justify-content: center;
+align-content: center;
+display: flex;
 }
 
 .txt-div-left h1{
@@ -673,6 +674,7 @@ font-size:medium;
 
 .img-div-right img{
   width: 220px;
+  height: auto;
   border-radius: 25px;
   vertical-align: middle;
   filter: grayscale(80%);
@@ -685,3 +687,38 @@ font-size:medium;
   transform: scale(1.1) translate(-5px, 10px);
 }
 
+
+/*Diseño de carta maestrías*/
+
+.header_dsg_of_acd_mtr{
+  background-image: url('../../img/of_acad/maestrias/Header_background_mtr.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Diseño de carta de maestrías ofertas academicas */
+
+.card-container-ind-mtr{
+  background-image: url('../../img/of_acad/maestrias/background_mtr.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  width: 400px;
+  height: 400px;
+  padding: 20px 0px 0px 20px;
+}
+
+.card-container-ind-mtr:hover{
+  background-image: url('../../img/of_acad/maestrias/background_mtr_hover.svg');
+}
+
+
+.card-container-ind-mtr .flx-card-andc:hover > .img-div-right img{
+  filter: grayscale(0%);
+  transform: scale(1.1) translate(-5px, 10px);
+}

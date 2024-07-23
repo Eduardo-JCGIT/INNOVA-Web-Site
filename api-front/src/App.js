@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Ind from "./components/index/Index";
-import Lic from "./components/acadm/Lic";
+import Mtr from "./components/acadm/Mtr";
 
 function App() {
   return (
       <Routes>
         <Route path="/" element={<Ind />} />
-        <Route path="/Licenciaturas" element={<Lic />} />
+        <Route path="/Maestrias" element={<Mtr />} />
       </Routes>
   );
 }

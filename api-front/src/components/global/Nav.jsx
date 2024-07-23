@@ -56,7 +56,7 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <Link to="/Licenciaturas" className="nav_router"> 
+                     <Link to="/Maestrias" className="nav_router"> 
                         <span>Oferta Academica</span>
                         </Link> 
                   </li>

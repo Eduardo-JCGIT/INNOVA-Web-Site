@@ -1,19 +1,22 @@
-import Nav from "../global/Nav"
-import CardLic from "./lyt_acadm/CardLic"
-import HeaderAcd from "./lyt_acadm/HeaderAcd"
+import Nav from "../global/Nav";
+import CardLic from "./lyt_acadm/lic_acadm/CardLic";
+import HeaderLic from "./lyt_acadm/lic_acadm/HeaderLic";
+import Footer from "../global/Footer";
 function Lic() {
-
-    return(
-        <div>
-            <header>
-            <Nav/>
-            <HeaderAcd/>
-            </header>
-        <section>
-        <CardLic/>
-        </section>
-        </div>
-    )
+  return (
+    <div>
+      <header>
+        <Nav />
+        <HeaderLic />
+      </header>
+      <section>
+        <CardLic />
+      </section>
+      <br/>
+      <br />
+      <Footer />
+    </div>
+  );
 }
 
-export default Lic
+export default Lic;

@@ -1,4 +1,20 @@
-import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
+import psiimg from '../../../img/of_acad/licenciaturas/card_lic/PSI_card.png'
+import PED from '../../../img/of_acad/licenciaturas/card_lic/PED_card.png'
+import DER from '../../../img/of_acad/licenciaturas/card_lic/DER_card.png'
+import CON from '../../../img/of_acad/licenciaturas/card_lic/CON_card.png'
+import SIS from '../../../img/of_acad/licenciaturas/card_lic/SIS_card.png'
+import ADM from '../../../img/of_acad/licenciaturas/card_lic/ADM_card.png'
+import NEI from '../../../img/of_acad/licenciaturas/card_lic/NEI_card.png'
+import LIN from '../../../img/of_acad/licenciaturas/card_lic/LIN_card.png'
+import ADT from '../../../img/of_acad/licenciaturas/card_lic/ADT_card.png'
+import MER from '../../../img/of_acad/licenciaturas/card_lic/MER_card.png'
+import COM from '../../../img/of_acad/licenciaturas/card_lic/COM_card.png'
+import CED from '../../../img/of_acad/licenciaturas/card_lic/CED_card.png'
+import AGO from '../../../img/of_acad/licenciaturas/card_lic/AGO_card.png'
+import INF from '../../../img/of_acad/licenciaturas/card_lic/INF_card.png'
+import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
+
+
 
 
     const ObjLic = [
@@ -20,7 +36,7 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         cuatrimestres: 9,
         mode:'ONLINE',
         inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        imglic: PED,
     },
     //Derecho
     {
@@ -29,8 +45,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20140254,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Regula la conducta humana mediante normas para garantizar el orden y la justicia.',
+        imglic: DER,
     },
     //CONTABILIDAD
     {
@@ -39,18 +55,18 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20140252,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Registra y analiza operaciones financieras para informar decisiones económicas.',
+        imglic: CON,
     },
     //SISTEMAS COMPUTACIONALES
     {
         idlic: 5,
-        licenciatura: 'CONTABILIDAD',
+        licenciatura: 'SISTEMAS COMPUTACIONALES',
         numrvoe: 20150437,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Integran hardware y software para procesar, almacenar y comunicar información eficientemente.',
+        imglic: SIS,
     },
     //ADMINISTRACION DE EMPRESAS
     {
@@ -59,8 +75,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20150437,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Organiza y dirige recursos para alcanzar objetivos estratégicos y operativos eficientemente.',
+        imglic: ADM,
     },
     //NEGOCIOS INTERNACIONALES
     {
@@ -69,8 +85,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20130383,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Analiza el comercio internacional y desarrolla estrategias para crecer en mercados globales.',
+        imglic: NEI,
     },
     //LENGUA INGLESA
     {
@@ -79,8 +95,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20130379,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Permite el dominio del inglés para interactuar y comprender información en un contexto global.',
+        imglic: LIN,
     },
     // ADMINISTRACION DE EMPRESAS TURISTICAS
     {
@@ -89,8 +105,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20130377,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Gestiona recursos y operaciones en el sector turístico para ofrecer servicios de calidad',
+        imglic: ADT,
     },
     //MERCADOCTENIA
     {
@@ -99,8 +115,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20130381,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Desarrolla estrategias para promover productos y servicios, analizando el mercado y entendiendo las necesidades del consumidor.',
+        imglic: MER,
     },
     //CIENCIAS DE LA COMUNICACIÓN
     {
@@ -109,8 +125,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20140256,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Gestiona procesos de comunicación y crea mensajes efectivos para diversos medios.',
+        imglic: COM,
     },
     //CIENCIAS DE LA EDUCACIÓN
     {
@@ -119,8 +135,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20140255,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Optimiza métodos de enseñanza para mejorar el aprendizaje y el desarrollo educativo.',
+        imglic: CED,
     },
     //GOBIERNO Y ADMINISTRACIÓN PUBLICA
     {
@@ -129,8 +145,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20211310,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Administra políticas y servicios públicos para garantizar el buen funcionamiento de las instituciones y el bienestar social.',
+        imglic: AGO,
     },
     //INFORMATICA 
     {
@@ -139,8 +155,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20130378,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Crea y aplica tecnología para el manejo de información en diferentes sistemas y plataformas.',
+        imglic: INF,
     },
     //CIENCIAS DEL DEPORTE
     {
@@ -149,8 +165,8 @@ import psiimg from '../../../img/of_acad/licenciaturas/card_lic/psicard1.png'
         numrvoe: 20232696,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
-        imglic: psiimg,
+        inf: 'Analiza el rendimiento físico y la salud para mejorar el entrenamiento y prevenir lesiones.',
+        imglic: CDE,
     },
 
 
