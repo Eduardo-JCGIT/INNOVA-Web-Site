@@ -1,8 +1,14 @@
+import React, { useEffect } from 'react';
 import Nav from "../global/Nav";
 import CardLic from "./lyt_acadm/lic_acadm/CardLic";
 import HeaderLic from "./lyt_acadm/lic_acadm/HeaderLic";
 import Footer from "../global/Footer";
 function Lic() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <header>

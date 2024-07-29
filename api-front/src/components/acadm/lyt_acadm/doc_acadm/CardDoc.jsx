@@ -1,10 +1,8 @@
-import ObjLic from "../../ObjetAcad/ObjLic";
+import ObjDoc from "../../ObjetAcad/ObjDoc";
 import { BiSolidBookBookmark } from "react-icons/bi";
 import { BiSolidLayout } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
-function CardLic() {
-  console.log(ObjLic);
+function CardDoc() {
   return (
 
     
@@ -15,9 +13,8 @@ function CardLic() {
                    
       
       {/*Fondo de la imagen*/}
-      {ObjLic.map((item) => (
-       <Link to="/Pedagogia">
-      <div key={item.idlic} className="card-container-ind">
+      {ObjDoc.map((item) => (
+      <div key={item.iddoc} className="card-container-ind-doc">
 
         {/*Tamaño de la carta*/}
         
@@ -25,7 +22,7 @@ function CardLic() {
         {/*Información de la licenciatura */}
 
           <div  className="txt-div-left">
-          <h1>{item.licenciatura}</h1>
+          <h1>{item.doctorado}</h1>
           <h4>(RVOE SEP) {item.numrvoe}</h4>
           <br />
           <p><span><BiSolidBookBookmark/></span> {item.cuatrimestres} CUATRIMESTRES</p>
@@ -36,14 +33,13 @@ function CardLic() {
 
         {/*Imagen de la licenciatura*/}
         <div className="img-div-right">
-          <img src={item.imglic} alt={item.imglic} />
+          <img src={item.imgdoc} alt={item.imgdoc} />
         </div>
         
         </div> 
 
 
-      </div>
-      </Link>
+      </div>   
  
         ))}
 
@@ -59,4 +55,4 @@ function CardLic() {
 }
 
 
-export default CardLic;
+export default CardDoc;

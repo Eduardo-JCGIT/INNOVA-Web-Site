@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import innova3png from '../../img/icon/innova3.png';
 import { CgClose } from "react-icons/cg";
 import { CgFormatJustify } from "react-icons/cg";
+import { BsFillCaretRightFill } from "react-icons/bs";
 
 
 function Nav (){
@@ -55,10 +56,16 @@ function Nav (){
                      </Link>
                   </li>
 
-                  <li className="nav_li">
-                     <Link to="/Maestrias" className="nav_router"> 
+                  <li className="nav_li ">
+                        <div className='nav_router'>
                         <span>Oferta Academica</span>
-                        </Link> 
+                        </div>
+                        <ul className='drop_nav_of'>
+                           <Link to="/Licenciaturas"> <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Licenciaturas</li></Link> 
+                           <Link to="/Maestrias"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Maestrías</li></Link> 
+                           <Link to="/Doctorados"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Doctorados</li></Link>
+                           <Link to="/Especialidades">  <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Especialidades</li></Link> 
+                        </ul>
                   </li>
 
                   <li className="nav_li">
@@ -68,9 +75,9 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <a href="#" className="nav_router">
+                        <Link to="/Desa" className="nav_router">
                         <span>Proyecto DESA</span>
-                     </a>
+                        </Link>
                   </li>
 
                   <li className="nav_li">
@@ -92,9 +99,9 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <a href="#" className="nav_router">
+                  <Link to="/Contacto" className="nav_router">
                         <span>Contacto</span>
-                     </a>
+                  </Link>
                   </li>
                </ul>
 

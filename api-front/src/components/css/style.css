@@ -60,7 +60,41 @@
     z-index: 999999;
     width: 100%;
   }
+
+  /*Oferta academica, seccion de menu*/
+
+  .nav_li:hover .drop_nav_of  {
+    display: block;
+    transition: all 1s ease-in-out;
+    padding: 10px 0px 10px 0px;
+  }
   
+  .drop_nav_of{
+    display: none;
+    position: absolute;
+    background-color: var(--white2);
+    border-radius: 10px;
+    min-width: 200px;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all 1s ease-in-out;
+  }
+
+  .drop_nav_of .drop_li_of{
+    padding: 10px 10px;
+    color: var(--blue2);
+    font-weight: 600;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .drop_nav_of .drop_li_of:hover{
+    background-color: var(--white3);
+    border-radius: 10px;
+    transition: all 0.5;
+  }
+
+
   @media screen and (max-width: 1150px) {
     .nav_menu {
       position: fixed;
@@ -232,6 +266,10 @@
     margin: auto;
   }
 
+  .nav_top_padg_sep{
+    padding-top: 7rem;
+  }
+
   .txt_bold_tittle{
     font-size: 1.7em;
   }
@@ -270,6 +308,14 @@
 
 .col_txt_hd2{
   color: var(--blue2);
+}
+
+.font_size_title_global{
+  font-size: 36px;
+}
+
+.font_size_txt_p_global{
+  font-size: 1.1vw;
 }
 
 .clm_hd2{
@@ -345,7 +391,8 @@
 
 .Cg_color_item{
   color: var(--blue2);  
-
+  font-size: 25px;
+  padding: 0px 5px 0px 0px;
 }
 
 /*Oferta academica Layout*/
@@ -688,7 +735,7 @@ font-size:medium;
 }
 
 
-/*Diseño de carta maestrías*/
+/*Diseño de header maestrías*/
 
 .header_dsg_of_acd_mtr{
   background-image: url('../../img/of_acad/maestrias/Header_background_mtr.svg');
@@ -721,4 +768,195 @@ font-size:medium;
 .card-container-ind-mtr .flx-card-andc:hover > .img-div-right img{
   filter: grayscale(0%);
   transform: scale(1.1) translate(-5px, 10px);
+}
+
+/*Diseño de header doctorados*/
+
+.header_dsg_of_acd_doc{
+  background-image: url('../../img/of_acad/doctorados/Header_background_doc.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Diseño de carta de doctorados*/
+
+
+.card-container-ind-doc{
+  background-image: url('../../img/of_acad/doctorados/background_doc.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  width: 400px;
+  height: 400px;
+  padding: 20px 0px 0px 20px;
+}
+
+.card-container-ind-doc:hover{
+  background-image: url('../../img/of_acad/doctorados/background_doc_hover.svg');
+}
+
+.card-container-ind-doc .flx-card-andc:hover > .img-div-right img{
+  filter: grayscale(0%);
+  transform: scale(1.1) translate(-5px, 10px);
+}
+
+
+/*Diseño de header de especialidaddes*/
+
+.header_dsg_of_acd_esp{
+  background-image: url('../../img/of_acad/especialidades/Header_background_esp.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/*Diseño de carta de especialidades*/
+
+
+.card-container-ind-esp{
+  background-image: url('../../img/of_acad/especialidades/background_esp.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  width: 400px;
+  height: 400px;
+  padding: 20px 0px 0px 20px;
+}
+
+.card-container-ind-esp:hover{
+  background-image: url('../../img/of_acad/especialidades/background_esp_hover.svg');
+}
+
+.card-container-ind-esp .flx-card-andc:hover > .img-div-right img{
+  filter: grayscale(0%);
+  transform: scale(1.1) translate(-5px, 10px);
+}
+
+
+/*Diseño de información de contacto*/
+.contact_ind_tittle{
+font-size: 2.5vw;
+text-align: center;
+margin: 25px 0px 25px 0px;
+}
+
+.container_contact_inv{
+  width: 100%;
+  padding: 0 0 10% 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 25px;
+}
+
+.map_rsp_contact{
+  max-width: 100%;
+}
+
+/*Diseño de proyecto desa*/
+
+.flx_desa_grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 45px 0px 45px 0px;
+}
+
+.img_flx_desa{
+  max-width: 500px;
+}
+
+.flx_desa_grid .flx_desa_cent_img{
+  display: flex;
+  justify-content: center;
+}
+
+.cont_color_anch_desa{
+  background-color: var(--blue2);
+  width: 100%;
+}
+
+.txt_sec_desa_anch{
+  color: var(--white2);
+}
+
+.Cg_color_item2{
+  color: var(--white1);
+  font-size: 25px;
+  padding: 0px 5px 0px 0px;
+}
+
+
+.li_marg_ds_glb{
+  margin: 5px 0px 5px 0px;
+}
+
+/*Diseño de imformacion academica*/
+.inflic_div_cont_2{
+  display: flex;
+  justify-content: center;
+}
+
+.inflic_div_cont_2 img{
+  width: 500px;
+}
+
+/*Contenedro de la carta de plan de estudios*/
+
+.card_container_info_pln{
+  background-image: url('../../img/of_acad/licenciaturas/backgroud_card_lic.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  width: 300px;
+  height: 300px;
+  padding: 20px 0px 0px 20px;
+  color: var(--white1);
+}
+
+.card_container_info_pln:hover{
+  background-image: url('../../img/of_acad/licenciaturas/backgroud_card_lic_hover.svg');
+  transform: translate(0px, -15px);
+}
+
+.card_inf_grid_cont{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 25px;
+}
+
+.header_cont_clm3{
+  width: 80%;
+  margin: auto;
+  padding: 2vw 2vh;
+}
+
+.txt_ption_pln_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ul_list_info_card_acad .li_list_info_card_acad{
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.li_list_info_card_acad span{
+  margin-right: 5px;
 }

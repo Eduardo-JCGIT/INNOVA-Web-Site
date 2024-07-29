@@ -1,21 +1,23 @@
 import React, { useEffect } from 'react';
 import Nav from "../global/Nav";
-import HeaderMtr from "./lyt_acadm/mtr_acadm/HeaderMtr";
-import CardMtr from "./lyt_acadm/mtr_acadm/CardMtr";
+import HeaderDoc from "./lyt_acadm/doc_acadm/HeaderDoc";
+import CardDoc from "./lyt_acadm/doc_acadm/CardDoc";
 import Footer from "../global/Footer";
-function Mtr (){
 
+function Doc() {
+    
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
     return(
         <div>
             <header>
-            <Nav/>
-            <HeaderMtr/>
+                <Nav/>
+                <HeaderDoc/>
             </header>
             <section>
-              <CardMtr/>  
+                <CardDoc/>
             </section>
             <br />
             <br />
@@ -24,4 +26,4 @@ function Mtr (){
     )
 }
 
-export default Mtr
+export default Doc;

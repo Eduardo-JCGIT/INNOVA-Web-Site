@@ -17,7 +17,7 @@ function HeaderMtr() {
             <br />
             <h4 className="poppins-semibold">RVOES FEDERALES -SEP</h4>
             <h4 className="poppins-semibold">
-              LICENCIATURAS CON VALIDACIÓN OFICIAL.
+              MAESTRÍAS CON VALIDACIÓN OFICIAL.
             </h4>
           </div>
 

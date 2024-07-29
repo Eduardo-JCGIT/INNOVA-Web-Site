@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import Nav from "../global/Nav";
-import HeaderMtr from "./lyt_acadm/mtr_acadm/HeaderMtr";
-import CardMtr from "./lyt_acadm/mtr_acadm/CardMtr";
+import HeaderEsp from "./lyt_acadm/esp_acadm/HeaderEsp";
+import CardEsp from "./lyt_acadm/esp_acadm/CardEsp";
 import Footer from "../global/Footer";
-function Mtr (){
+
+function Esp(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -11,17 +12,18 @@ function Mtr (){
     return(
         <div>
             <header>
-            <Nav/>
-            <HeaderMtr/>
+                <Nav/>
+            <HeaderEsp/>
             </header>
             <section>
-              <CardMtr/>  
+            <CardEsp/>
             </section>
             <br />
             <br />
-            <Footer/>
+        <Footer/>
         </div>
     )
 }
 
-export default Mtr
+export default Esp;
+
