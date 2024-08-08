@@ -262,7 +262,7 @@
 /*variables globales global */
 
   .container_global{
-    width: 85%;
+    width: 80%;
     margin: auto;
   }
 
@@ -295,7 +295,7 @@
   }
 
   .clm_hd1 h1{
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
 
   .clm_hd1 h3{
@@ -310,8 +310,11 @@
   color: var(--blue2);
 }
 
+
 .font_size_title_global{
-  font-size: 36px;
+  text-align: center;
+  justify-content: center;
+  margin: 25px;
 }
 
 .font_size_txt_p_global{
@@ -672,6 +675,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 25px;
+  justify-items: center;
 }
 
 
@@ -959,4 +963,126 @@ margin: 25px 0px 25px 0px;
 
 .li_list_info_card_acad span{
   margin-right: 5px;
+}
+
+/*Inscripciones  */
+.ft_nav_sep_pad{
+  padding-bottom: 100px;
+}
+
+.displ_cont_inf_step{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/*Equipo INNOVA*/
+
+.card_ind_dis_team{
+  background-image: url('../../img/innova_team_img/card_inv/card_inv_team.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  width: 330px;
+  height: 330px;
+}
+
+.card_ind_dis_team:hover{
+  background-image: url('../../img/innova_team_img/card_inv/card_inv_team_hover.png');
+}
+
+.card_ind_dis_team img{
+  height: 330px;
+  width: 330px;
+}
+
+.admin_coor_inv_txt{
+  height: 70px;
+  width: 350px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 0%, rgba(0,0,0,1) 100%);
+  color: white;
+  bottom: 60px;
+  text-align: center;
+  border-radius: 0px 0px 25px 25px;
+  transition: all .4s ease-out;
+}
+
+.admin_coor_inv_txt h3{
+  margin: 5px;
+  opacity: 0;
+  transition: all .4s ease-out;
+}
+
+.card_ind_dis_team:hover > .admin_coor_inv_txt{
+  height: 100px;
+  bottom: 90px;
+}
+
+.card_ind_dis_team:hover > .admin_coor_inv_txt h3{
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Modal de cada carta*/
+.con_box_hed_re{
+  position: relative;
+}
+
+.box_card_st .admin_text{
+  display: flex;
+  align-items: center;
+}
+
+.box_card_st img{
+height: 150px;
+width: 250px;
+
+}
+
+
+section .outer_card_cont{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .box_card_st{
+  position: relative;
+  background-color: var(--blue2);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.admin_text .text_cont_ind{
+display: flex;
+flex-direction: column;
+margin-left: 15px;
+}
+
+.box_card_st .close{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--white3);
+  transition: all .8 ease-in;
+}
+
+.box_card_st .close:hover{
+  color: var(--blue4);
 }

@@ -8,6 +8,8 @@ import Esp from "./components/acadm/Esp";
 import Contact from "./components/contact/Contact";
 import Desa from "./components/desa/Desa";
 import InfoLic from "./components/infacad/lic/InfoLic";
+import Inscription from "./components/inscription/Inscription";
+import Innovateam from "./components/innovateam/Innovateam";
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
 
         {/*Informacion academica licenciatura*/}
         <Route  path="/Pedagogia" element={<InfoLic/>} />
+        {/*Pagina de inscripciones */}
+        <Route path="/Inscripciones" element={<Inscription/>}/>
+        {/*Equipo INNOVA */}
+        <Route path="/Equipo-INNOVA" element={<Innovateam/>}/>
       </Routes>
   );
 }

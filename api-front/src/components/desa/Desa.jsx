@@ -1,4 +1,5 @@
 import Footer from "../global/Footer";
+import { useEffect } from "react";
 import Nav from "../global/Nav";
 import item1 from "../../img/desa/item_desa_1.png";
 import item2 from "../../img/desa/item_desa_2.png";
@@ -7,6 +8,10 @@ import item4 from "../../img/desa/item_desa_4.png";
 import { CgMonday } from "react-icons/cg";
 
 function Desa() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <header>
@@ -21,8 +26,9 @@ function Desa() {
             <img src={item1} alt={item1} className="img_flx_desa" />
           </div>
           <div>
-            <h1 className="col_txt_hd2 poppins-bold font_size_title_global">PROYECTO <span className="col_txt_hd">DESA</span></h1>
-            
+            <div className="clm_hd1">
+            <h1 className="col_txt_hd2 poppins-bold">PROYECTO <span className="col_txt_hd">DESA</span></h1>
+            </div>
             <br />
             <p className="font_size_txt_p_global">
               El Departamento de Desarrollo Académico de nuestra universidad

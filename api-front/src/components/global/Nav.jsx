@@ -69,9 +69,9 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <a href="#" className="nav_router">
+                     <Link to="/Inscripciones" className="nav_router">
                         <span>Inscripciones</span>
-                     </a>
+                     </Link>
                   </li>
 
                   <li className="nav_li">
@@ -93,9 +93,9 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <a href="" className="nav_router">
+                  <Link to="/Equipo-INNOVA" className="nav_router">
                         <span>Equipo INNOVA</span>
-                     </a>
+                  </Link>
                   </li>
 
                   <li className="nav_li">
