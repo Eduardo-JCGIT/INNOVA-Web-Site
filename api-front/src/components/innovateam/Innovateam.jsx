@@ -1,16 +1,46 @@
 import Nav from "../global/Nav";
 import Footer from "../global/Footer";
 import ObjTeam from "./ObjTeam";
-import item2 from "../../img/innova_team_img/mich_tagle.png";
-import { useState } from "react";
+import item2 from "../../img/innova_team_img/modal/mich_tagle.jpg";
+import { useEffect, useState } from "react";
+import { CgCloseO } from "react-icons/cg";
+import { SiGmail } from "react-icons/si";
+import { RiWhatsappFill } from "react-icons/ri";
 
 function Innovateam() {
 
-  const[modal, setModal] = useState(false);
+  /*Funcion del modal*/
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
 
-  const ToggleModal  = () =>{
-    setModal(!modal)
-  }
+  const openModal = (item) => {
+    setSelectedItem(item);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedItem(null);
+    setModalOpen(false);
+  };
+
+  const ToggleModal = () => {
+    setModalOpen(!modalOpen);
+  };
+
+  useEffect(() =>{
+    if (modalOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+    return() =>{
+      document.body.classList.remove('no-scroll');
+    };
+
+  }, [modalOpen]);
+
+
+
 
   return (
     <div>
@@ -28,9 +58,9 @@ function Innovateam() {
             <h3>C A M P E C H E</h3>
           </div>
         </div>
-        <div className="card-adc-grid-cont" onClick={ToggleModal}>
+        <div className="card-adc-grid-cont">
           {ObjTeam.map((item) => (
-            <div className="card_ind_dis_team" key={item.idteam}>
+            <div className="card_ind_dis_team" key={item.idteam}  onClick={() => openModal(item)}>
               <img src={item.imgteam} alt={item.imgteam} />
               <div className="admin_coor_inv_txt">
                 <h2>{item.name}</h2>
@@ -42,29 +72,39 @@ function Innovateam() {
       </section>
       {/*-------------------------------------------------------------------------------------------- */}
 
-{/*Este es el modal de las cartas separado en 2 secciones */}
-<section className="card_modal">
-            {/*Caja moaal de cada card */}
-{modal && (
-              <div className="outer_card_cont" onClick={ToggleModal}>
-              <div className="box_card_st">
-                <span className="bx bx-x close" onClick={ToggleModal}>x</span>
-                <div className="admin_text">
-                  <img src={item2} alt={item2} />
+      {/*Este es el modal de las cartas separado en 2 secciones */}
+
+      {/*Caja moaal de cada card */}
+      {modalOpen && (
+
+        <section className="modal_team_inv">
+          <div onClick={ToggleModal} className="overlay_modal_team"></div>
+          <div className="modal_cont_inf_team">
+          <span className="bx bx-x close" onClick={ToggleModal}><span><CgCloseO /></span></span> 
+
+          {modalOpen && selectedItem && (
+          <div className="admin_text">
+                  <img src={selectedItem.imgteam} alt={selectedItem.imgteam} />
                   <div className="text_cont_ind">
-                    <h5>¡Hola a todos! Me llamo Adriana Berenice</h5>
-                    <p>
-                      En mi día a día, administro las cuentas de los estudiantes,
-                      gestionando pagos de matrículas y becas. También envío
-                      recordatorios de pagos pendientes y proporciono informes
-                      financieros claros y precisos.
-                    </p>
+                    <h3>{selectedItem.hi}</h3>
+                    <br />
+                    <p>{selectedItem.journaling}</p>
+                    <br />
+                    <p className="grd_acad_team">{selectedItem.degree}</p>
+                    <p>{selectedItem.area}</p>
+                    <br />
+                    <ul>
+                      <li><span><SiGmail /></span>{selectedItem.email}</li>
+                      <li><span><RiWhatsappFill /></span>{selectedItem.phone}</li>
+                    </ul>
                   </div>
-                </div>
-              </div>
-            </div>
-)}
-</section>
+          </div>
+            )}
+
+          </div>
+        </section>
+      )}
+    
       {/*----------------------------------------------------------------------------------------- */}
       <div>
         <Footer />
