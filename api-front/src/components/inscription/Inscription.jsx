@@ -30,7 +30,7 @@ function Inscription() {
               </h1>
               <h2 className="col_txt_hd1">INSCRIPCIONES ABIERTAS</h2>
               <br />
-              <p className="font_size_txt_p_global">
+              <p>
                 Sigue los siguientes pasos para poder culminar tu proceso de
                 inscripción, de igual manera este proceso lo puedes hacer en
                 nuestras oficinas en horario de atención.

@@ -30,7 +30,7 @@ const Infpt2 = () => {
         <CardDte/>
 
         <br/>
-        <section className=' container_global cont_info_ind'>
+        <section className=' container_global cont_info_ind3'>
             <div  className='cont_info_item1'>
             <h3 className='txt_bold_tittle'> UN ESTUDIANTE DE <span className="col_txt_hd2">INNOVA</span> ES</h3>
             <br />
@@ -52,7 +52,6 @@ const Infpt2 = () => {
         </section>
 
         <CardAlu/>
-
     </div>
     )
 }

@@ -19,7 +19,7 @@ function Contact() {
           </h1>
           <div className="container_contact_inv">
             <div className="map_rsp_contact">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.4427164253666!2d-90.53707031326127!3d19.847383215852336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f833721a2c5b45%3A0x8800d672e97a8291!2sUNIVERSIDAD%20INNOVA%20OFICINA%20DE%20ADMISIONES%3A%20CAMPECHE!5e0!3m2!1ses-419!2smx!4v1721933676076!5m2!1ses-419!2smx" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.4427164253666!2d-90.53707031326127!3d19.847383215852336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f833721a2c5b45%3A0x8800d672e97a8291!2sUNIVERSIDAD%20INNOVA%20OFICINA%20DE%20ADMISIONES%3A%20CAMPECHE!5e0!3m2!1ses-419!2smx!4v1721933676076!5m2!1ses-419!2smx" width="100%" height="100%" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div>
               <h2 className="poppins-bold col_txt_hd2"> <span><FaClock /></span> HORARIOS</h2>

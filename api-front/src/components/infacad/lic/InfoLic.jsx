@@ -25,7 +25,7 @@ function InfoLic() {
 
             <div className="flx_desa_grid" key={item.idlicI}>
             <div className="inflic_div_cont_1">
-            <h1 className="font_size_title_global">LICENCIATURA EN <span className="col_txt_hd">{item.licenciatura}</span></h1>
+            <h1 className="font_size_title_global2">LICENCIATURA EN <span className="col_txt_hd">{item.licenciatura}</span></h1>
             <br />
             <h3>SEP-DGAIR-RVOE {item.numrvoe} del {item.datervoe}</h3>
             <br />

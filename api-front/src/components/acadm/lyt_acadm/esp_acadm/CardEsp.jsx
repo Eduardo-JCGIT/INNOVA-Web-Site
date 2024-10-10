@@ -23,10 +23,9 @@ function CardEsp() {
 
           <div  className="txt-div-left">
           <h1>{item.especialidad}</h1>
-          <h4>(RVOE SEP) {item.numrvoe}</h4>
           <br />
           <p><span><BiSolidBookBookmark/></span> {item.cuatrimestres} CUATRIMESTRES</p>
-          <p><span><BiSolidLayout/></span>{item.mode}</p>
+          <p><span><BiSolidLayout/></span>ROVE {item.numrvoe}</p>
           <br />
           <p>{item.inf}</p>
           </div>

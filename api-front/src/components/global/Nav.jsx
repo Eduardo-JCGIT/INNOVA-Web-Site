@@ -81,15 +81,15 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                     <a href="#" className="nav_router">
+                  <Link to="/404" className="nav_router">
                         <span>Maestros</span>
-                     </a>
+                  </Link>
                   </li>
 
                   <li className="nav_li">
-                     <a href="#" className="nav_router">
+                  <Link to="/404" className="nav_router">
                         <span>Alumnos</span>
-                     </a>
+                  </Link>
                   </li>
 
                   <li className="nav_li">

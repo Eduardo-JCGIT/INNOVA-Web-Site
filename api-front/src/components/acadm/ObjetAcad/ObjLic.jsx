@@ -65,7 +65,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20150437,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Integran hardware y software para procesar, almacenar y comunicar información eficientemente.',
+        inf: 'Conjunto de funciones interrelacionadas, hardware, software y recursos humanos.',
         imglic: SIS,
     },
     //ADMINISTRACION DE EMPRESAS
@@ -145,7 +145,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20211310,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Administra políticas y servicios públicos para garantizar el buen funcionamiento de las instituciones y el bienestar social.',
+        inf: 'Administra políticas y servicios públicos para garantizar el buen funcionamiento de las instituciones.',
         imglic: AGO,
     },
     //INFORMATICA 

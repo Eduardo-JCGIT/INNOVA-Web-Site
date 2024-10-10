@@ -7,6 +7,7 @@ import { CgMonday } from "react-icons/cg";
 function Infpt1() {
     return(
         <div>
+            <div className='cls_mobile_sep_mar'>
             <section className=' container_global cont_info_ind'>
                 <div className='cont_info_item2'>
                     <img src={element2} alt={element2} />
@@ -24,7 +25,7 @@ function Infpt1() {
                 </div>
             </section>
 
-            <section className='container_global cont_info_ind'>
+            <section className='container_global cont_info_ind2'>
                 <div  className='cont_info_item1'>
                 <h3 className='txt_bold_tittle'> <span className='col_txt_hd2'>¿QUIÉNES</span> SOMOS?</h3>
                 <br />
@@ -38,6 +39,7 @@ function Infpt1() {
                     <img src={element3} alt={element3} />
                 </div>
             </section>
+            </div>
         </div>
     )
 }

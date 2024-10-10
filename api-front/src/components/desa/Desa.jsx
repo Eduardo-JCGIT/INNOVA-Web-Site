@@ -30,14 +30,14 @@ function Desa() {
             <h1 className="col_txt_hd2 poppins-bold">PROYECTO <span className="col_txt_hd">DESA</span></h1>
             </div>
             <br />
-            <p className="font_size_txt_p_global">
+            <p>
               El Departamento de Desarrollo Académico de nuestra universidad
               trabaja para asegurar el crecimiento integral de los estudiantes,
               enfocándose en su rendimiento académico, bienestar emocional e
               identidad comunitaria.
             </p>
             <br />
-            <p className="font_size_txt_p_global">En el último período, hemos implementado
+            <p>En el último período, hemos implementado
             varias iniciativas y actividades para cumplir estos objetivos.</p>
           </div>
         </div>
@@ -48,9 +48,11 @@ function Desa() {
     <div className="container_global">
         <div className="flx_desa_grid">
           <div>
-            <h1 className="poppins-bold font_size_title_global">CAPACITACIÓN A DOCENTES</h1>
+            <div className="font_size_title_global">
+            <h1 className="poppins-bold">CAPACITACIÓN A DOCENTES</h1>
+            </div>
             <br />
-            <p className="font_size_txt_p_global">
+            <p>
             Equipar a nuestros docentes con las herramientas necesarias para apoyar a los estudiantes de manera efectiva y organizar sesiones de capacitación enfocadas en:
             </p>
             <br />  
@@ -66,15 +68,16 @@ function Desa() {
           </div>
         </div>
 
-        <div className="flx_desa_grid">
+        <div className="flx_desa_grid flx_desa_reverse">
           <div className="flx_desa_cent_img">
             <img src={item3} alt={item3} className="img_flx_desa" />
           </div>
           <div>
-            <h1 className="poppins-bold font_size_title_global">TALLERES CON ALUMNOS Y DOCENTES</h1>
+          <div className="font_size_title_global">
+            <h1 className="poppins-bold">TALLERES CON ALUMNOS Y DOCENTES</h1>
+            </div>
             <br />
-            <p className="font_size_txt_p_global">
-           
+            <p>
 Estos esfuerzos están enfocados en mejorar la interacción y el entendimiento mutuo dentro de nuestra comunidad académica:
             </p>
             <br />
@@ -92,9 +95,11 @@ Estos esfuerzos están enfocados en mejorar la interacción y el entendimiento m
         <div className="container_global">
         <div className="flx_desa_grid">
           <div>
-            <h1 className="col_txt_hd2 poppins-bold font_size_title_global">ACTIVIDADES PARA EL DESARROLLO DE HABILIDADES</h1>
+          <div className="font_size_title_global">
+            <h1 className="col_txt_hd2 poppins-bold">ACTIVIDADES PARA EL DESARROLLO DE HABILIDADES</h1>
+            </div>
             <br />
-            <p className="font_size_txt_p_global">
+            <p>
               Reconociendo la importancia de las habilidades no solo académicas,
               sino también personales y profesionales, hemos organizado una
               variedad de actividades destinadas a potenciar el desarrollo

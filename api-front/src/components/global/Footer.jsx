@@ -9,6 +9,7 @@ import { SiGooglemaps } from "react-icons/si";
 import innova3 from "../../img/icon/innova3.png";
 import icon1ftr from "../../img/icon/rvoe.png";
 import icon2ftr from "../../img/icon/googlewfe.png";
+import { SiGithub } from "react-icons/si";
 
 function Footer() {
   return (
@@ -73,9 +74,12 @@ function Footer() {
         <br />
         <hr />  
         <div className="footer_column_glob2">
+        <div className="sec_git_dev">
+        <p>Developer by Eduardo Jiménez</p> 
+        <a href="https://github.com/Eduardo-JCGIT" target="_blank"><SiGithub /></a>
+        </div>
         <p>
-          Copyright © 2024 UNIVERSIDAD INNOVA | developer by Eduardo Jiménez
-          Cruz
+        Copyright © 2024 UNIVERSIDAD INNOVA. Todos los derechos reservados.
         </p>
         <img src={innova3} alt={innova3} />
         </div>

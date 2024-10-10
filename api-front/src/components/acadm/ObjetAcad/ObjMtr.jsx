@@ -25,7 +25,7 @@ const ObjMtr = [
         numrvoe: 20140259,
         cuatrimestres: 4,
         mode: 'ONLINE',
-        inf: 'Evaluar la exactitud de los informes financieros, el cumplimiento de las normas y regulaciones.',
+        inf: 'Evaluar informes financieros, el cumplimiento de las normas y regulaciones.',
         imgmtr: AUD,
     },
 
@@ -34,8 +34,8 @@ const ObjMtr = [
         maestria: 'FINANZAS',
         numrvoe: 20140258,
         cuatrimestres: 4,
-        mode: 'ONLINE',
-        inf: 'Gestión de recursos financieros, planificación, inversión y análisis para optimizar el rendimiento económico.',
+        mode: 20140258,
+        inf: 'Gestiones financieros, planificación y análisis del rendimiento económico.',
         imgmtr: MFZ,
     },
 

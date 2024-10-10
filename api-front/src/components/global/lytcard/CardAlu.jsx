@@ -7,20 +7,19 @@ import alu_2hov from "../../../img/index/cards_ds/alu_2hov.png";
 function CardAlu() {
   const [alu, setAlu] = useState([
     {
-      namealu: "Mario Jesús González Alcocer",
+      namealu: "Mario González",
       testalu:
         "Como estudiante de la Universidad INNOVA, he tenido una experiencia educativa excepcional. La flexibilidad de los horarios y la modalidad en línea me permiten balancear mis estudios con otras responsabilidades personales y profesionales.",
       licalu: "Licenciatura en Sistemas Computacionales",
-      sedealu: "Campeche",
+      sedealu: "Estudiante",
       imgalu1: alu_1vi,
       imgalu2: alu_1hov,
     },
     {
-      namealu: "Adriana Paloma Quimé Rodríguez",
-      testalu:
-        "Después de graduarme con mi licenciatura, decidí continuar mi educación en la Universidad INNOVA y me inscribí en su programa de maestría en Ciencias de la educación. La calidad de la educación y el apoyo continuo que recibí durante mi maestría fueron excepcionales. ",
+      namealu: "Paloma Quimé",
+      testalu: "Estudiar en Universidad INNOVA fue una experiencia muy enriquecedora. Aprendí de manera práctica y moderna, aprovechando la tecnología y nuevas formas de enseñanza. Los profesores son muy preparados y siempre te motivan a dar lo mejor de ti.",
       licalu: "Maestría en Ciencias de la Educación",
-      sedealu: "Campeche",
+      sedealu: "Egresada",
       imgalu1: alu_2vi,    
       imgalu2: alu_2hov,
     },
@@ -53,7 +52,7 @@ function CardAlu() {
               <br />
               <h4>{alu.licalu}</h4>
               <p className="col_txt_hd2">
-                Docente de Universidad INNOVA {alu.sedealu}
+                {alu.sedealu} de Universidad INNOVA
               </p>
             </div>
 

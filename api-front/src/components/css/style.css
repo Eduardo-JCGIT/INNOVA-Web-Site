@@ -317,8 +317,8 @@
   margin: 25px;
 }
 
-.font_size_txt_p_global{
-  font-size: 1.1vw;
+.font_size_title_global2{
+  font-size: 2.3vw;
 }
 
 .clm_hd2{
@@ -371,6 +371,14 @@
 /* Información de pagina principal (sección 1)*/
 
 .cont_info_ind{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont_info_ind2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -605,6 +613,7 @@
 
 .footer_column_glob2{
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -619,6 +628,24 @@
 .icon_foot_dsg {
   color: var(--blue2);
   font-size: 1.4em;
+}
+
+.sec_git_dev{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sec_git_dev a{
+  color: var(--black1);
+  font-size: 1.3rem;
+  transition: all .5s ease-out;
+}
+
+.sec_git_dev a:hover{
+  color: var(--white4);
+  position: relative;
+  transform: translate(0px, -5px);
 }
 
 /*Oferta academicas licenciatura*/
@@ -849,16 +876,15 @@ font-size:medium;
 
 /*Diseño de información de contacto*/
 .contact_ind_tittle{
-font-size: 2.5vw;
+font-size: 2.1rem;
 text-align: center;
 margin: 25px 0px 25px 0px;
 }
 
 .container_contact_inv{
-  width: 100%;
   padding: 0 0 10% 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
 
@@ -1036,21 +1062,7 @@ margin: 25px 0px 25px 0px;
 }
 /*Modal de cada carta*/
 
-.modal_team_inv .overlay_modal_team{
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-}
-
 .modal_cont_inf_team{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   line-height: 1.4;
   background-image: url(../../img/innova_team_img/modal_back/modal_color.svg);
   background-size: cover;
@@ -1108,10 +1120,815 @@ margin: 25px 0px 25px 0px;
   align-items: center;
 }
 
-.overlay_modal_team{
-  background: rgba(49,49,49,0.8);
-}
-
-.no-scroll {
+.no-scroll {  
   overflow: hidden;
 }
+
+/*Acodo de la seccion de pagina no disponible*/
+.not_avilable_pag_cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 150px 0px 150px 0px;
+}
+
+.not_avilable_pag_cont div h1{
+  font-size: 2rem;
+}
+
+
+
+
+/*RESPONSIVE EN WEB SITE*/
+
+
+/*PC*/
+@media screen and (max-width: 1024px) {
+
+  /*Hedaer de la pagina principal del INDEX*/
+  .header_cont_clm{
+    width: 82%;
+    padding: 8vw 0;
+  }
+
+  .grid_heade_cont{
+    gap: 0px;
+  }
+
+  .clm_hd1 h2{
+    font-size: 1.9rem;
+  }
+
+  .clm_hd1 h1{
+    font-size: 2.1em;
+  }
+
+  .clm_hd1 h3{
+    font-size: 1.1rem;
+  }
+  
+  .font_size_txt_p_global{
+    font-size: 1.1vw;
+  }
+  
+  .clm_hd2 img{
+      width: 25em;
+  }
+
+  /*Diseño del boton del INDEX*/
+
+  .btn-cont1{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    gap: 1em;
+  }
+
+  .btn-cont1{
+    width: 80%;
+    gap: .5em;
+  }
+  .btn-cont1 button{
+   padding: 1.3vw;
+
+   font-size: 0.9em;
+  }
+
+  /*Oferta acaadémica INDEX*/
+
+  .acd_grid_cont{
+    margin-top: 3em;
+  }
+
+  /*Informaión de la sección 1*/
+
+  .cont_info_ind{
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cont_info_ind2{
+    gap: 0px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+   }
+
+  
+  .cont_info_item1 h3{
+   font-size: 1.5em;
+  }
+  
+  .cont_info_item1 p{
+    font-size: 1em;
+  }
+  
+  .cont_info_item2 img{
+    width: 22rem;
+  }
+  
+  .Cg_color_item{
+    font-size: 20px;
+  }
+
+  /*Testimonios docentea alumno*/
+
+  .flx_row_card{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_dte_ds_cont{
+    width: 80%;
+    gap: 20px;
+    border-radius: 1em;
+  }
+
+  
+  .fr_card_dte1 img{
+    width: 80%;
+  }
+  
+  .fr_card_dte2{
+    background-color: var(--white2); 
+    transition: all .4s ease-out;
+  }
+
+  .fr_card_dte2:hover{
+    box-shadow: 21px 24px 15px -31px rgba(0, 0, 0, 0.842);
+    background-color: var(--white3); 
+  }
+  
+  .fr_card_dte2 h3{
+    font-size: 1.3em;
+  }
+
+
+
+  /*Media licenciatura, este la responsividad de tamaño tablet de la información de la licenciatura*/
+
+  .clm_hdr_of_acd{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 50px 0px 50px;
+  }
+
+  .img_hdr_of_adc img{
+    width: 90vw;
+  }
+
+  .img_hdr_of_adc{
+    padding-top: 50px;
+  }
+
+  /*Diseño y tamaño de las cartas de cada licenciatura*/
+
+  .card-adc-grid-cont{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .card-container-ind{
+
+    width: 19rem;
+    height: 20.5rem;
+    padding: 10px 0px 0px 20px;
+  }
+  
+  .flx-card-andc{
+    width: 19rem;
+    height: 20.5rem;
+  }
+
+  .img-div-right img{
+    width: 10rem;
+    transform: translateY(30px);
+  }
+
+  /*Diseño de carta y tamaño de maestría*/
+    
+  .card-container-ind-mtr{
+    width: 19rem;
+    height: 20.5rem;
+    padding: 10px 0px 0px 20px;
+  }
+
+  /*Diseño y tamaño de las cartas de especialidades*/
+
+  .card-container-ind-esp{
+    width: 19rem;
+    height: 20.5rem;
+    padding: 20px 0px 0px 20px;
+  }
+
+    /*Diseño y tamaño de las cartas de doctorados*/
+
+  .card-container-ind-doc{
+    width: 19rem;
+    height: 20.5rem;
+      padding: 20px 0px 0px 20px;
+  }
+ 
+  
+  /*Diseño de la pagina "Inscripciones"*/
+
+  .flx_desa_grid{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .displ_cont_inf_step{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0px 50px 0px 50px;
+  }
+
+  /*Diseño de la página DESA*/
+
+.font_size_title_global h1{
+ font-size: 2.2em;
+}
+
+.flx_desa_reverse{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Acomodo de la seccion de pagina no disponible*/
+.not_avilable_pag_cont{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+  padding: 150px 0px 100px 0px;
+}
+
+.not_avilable_pag_cont div h1{
+  font-size: 2rem;
+}
+
+/*Contacto de INNOVA Final de la pag*/
+  
+.container_contact_inv{
+  grid-template-columns: 1fr;
+}
+
+.map_rsp_contact{
+  max-width: 100%;
+}
+
+.map_rsp_contact iframe{
+  height: 40vh;
+}
+
+/*INNOVA TEAM RESPONSIVE*/
+.card_ind_dis_team{
+  width: 20rem;
+  height: 20rem;
+}
+
+
+
+}
+
+/*Mobil media*/
+
+@media screen and (max-width: 768px) {
+/*Hedaer de la pagina principal del INDEX*/
+.header_cont_clm{
+  width: 90%;
+  padding: 8vw 0;
+}
+
+.grid_heade_cont{
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.clm_hd1{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.clm_hd1 h2{
+  font-size: 3rem;
+}
+
+.clm_hd1 h1{
+  font-size: 2.7rem;
+}
+
+.clm_hd1 h3{
+  font-size: 1.5rem;
+}
+
+
+.clm_hd2 img{
+    width: 40em;
+}
+
+/*Diseño del boton del INDEX*/
+
+.btn-cont1{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  gap: 1em;
+}
+
+.btn-cont1{
+  width: 40%;
+  gap: 1em;
+}
+
+.btn-cont1 button{
+ padding: 1.1vw;
+ border-radius: 10px;
+ font-size: 1.2em;
+}
+
+/*Oferta acaadémica INDEX*/
+
+.acd_grid_cont{
+  display: grid;
+  gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0em;
+}
+
+
+
+.acd_img_of img{
+  width: 9em;
+}
+/*Informaión de la sección 1*/
+
+.cont_info_ind{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0px;
+}
+
+
+.cont_info_item1 h3{
+ font-size: 2em;
+}
+
+.cont_info_item1 p{
+  font-size: 1.3em;
+}
+
+.cont_info_item2 img{
+  width: 35em;
+}
+
+.Cg_color_item{  
+  font-size: 30px;
+}
+
+/*Testimonios docentea alumno*/
+
+.flx_row_card{
+  grid-template-columns: 1fr;
+}
+
+.card_dte_ds_cont{
+  width: 90%;
+  gap: 20px;
+}
+
+.fr_card_dte2 h3{
+  font-size: 1.5em;
+}
+
+.fr_card_dte2 h4{
+  font-size: 1.3em;
+}
+
+.fr_card_dte2 p{
+  font-size: 1.1em;
+}
+
+/*Diseño de carta lic-----------------*/
+
+.card-adc-grid-cont{
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+.card-container-ind{
+  width: 19rem;
+  height: 20.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+
+.flx-card-andc{
+  width: 19rem;
+  height: 20.5rem;
+}
+
+.txt-div-left{
+font-size: 16px;
+}
+
+.img-div-right img{
+  width: 11rem;
+  transform: translateY(30px);
+}
+
+/*Diseño de Maestrías*/
+
+.card-container-ind-mtr{
+  width: 19rem;
+  height: 20.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+/*Diseño de carta de doctorados*/
+
+.card-container-ind-doc{
+  width: 19rem;
+  height: 20.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+/*Diseño de carta de especialidades*/
+
+
+.card-container-ind-esp{
+  width: 19rem;
+  height: 20.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+/*INNOVA TEAM DISEÑO RESPONSIVE*/
+
+.card-adc-grid-cont{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.card_ind_dis_team{
+  width: 21rem;
+  height: 21rem;
+}
+
+
+.card-container-ind{
+  width: 21rem;
+  height: 21rem;
+  padding: 20px 0px 0px 20px;
+}
+
+.card_ind_dis_team img{
+  width: 21rem;
+  height: 21rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  /*Hedaer de la pagina principal del INDEX*/
+.header_cont_clm{
+  width: 95%;
+  padding-top: 13vh;
+}
+
+
+.grid_heade_cont{
+  gap: 0px;
+}
+
+.clm_hd1{
+  gap: 0px;
+}
+
+.clm_hd1 h2{
+  font-size: 1.9rem;
+}
+
+.clm_hd1 h1{
+  font-size: 1.7rem;
+}
+
+.clm_hd1 h3{
+  font-size: 1.2rem;
+}
+
+.clm_hd2 img{
+    width: 100%;
+}
+
+/*Diseño del boton del INDEX*/
+
+.btn-cont1{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 70%;
+  gap: 1em;
+}
+
+.btn-cont1{
+  width: 50%;
+  gap: 1em;
+}
+.btn-cont1 button{
+ padding: 1.4vw;
+ border-radius: 10px;
+ font-size: 1em;
+}
+
+/*Oferta acaadémica INDEX*/
+
+.acd_grid_cont{
+  display: grid;
+  gap: 1.5em;
+}
+
+.acd_img_of img{
+  width: 7em;
+}
+
+/*Informaión de la sección 1*/
+
+.cont_info_ind{
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cont_info_ind2{
+  display:flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+}
+
+
+.cont_info_ind3{
+  display:flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 8vh;
+}
+
+.cont_info_item1 h3{
+ font-size: 1.5em;
+}
+
+.cont_info_item1 p{
+  font-size: 1em;
+}
+
+.cont_info_item2 img{
+  width: 100%;
+}
+
+.Cg_color_item{  
+  font-size: 25px;
+}
+
+.cls_mobile_sep_mar{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Seccion de ofertas academicas*/
+
+.txt_bold_tittle{
+  font-size: 1.5em;
+  text-align: left;
+}
+
+/*Texto sobrepuesto*/
+
+.off_img_lyt .txt_lyt_pr{
+  font-size: 1.7em;
+}
+
+/*Testimonios docentes alumno*/
+
+.marg_top_butt_box{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.flx_row_card{
+  grid-template-columns: 1fr;
+}
+
+.card_dte_ds_cont{
+  width: 100%;
+  gap: 80px;
+}
+
+.fr_card_dte2 h3{
+  font-size: 1.5em;
+}
+
+.fr_card_dte2 h4{
+  font-size: 1.2em;
+}
+
+.fr_card_dte2 p{
+  font-size: 1em;
+}
+
+/*Diseño del footer global*/
+
+.footer_column_glob{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.icon_clm_size{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.icon_clm_size a img{
+  width: 9rem;
+}
+
+.footer_column_glob2{
+  font-size: 1em;
+}
+
+.footer_column_glob2 img{
+  width: 8.5rem;
+}
+
+.footer_column_sec ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_column_glob2{
+display: flex;
+flex-direction: column-reverse;
+align-items: flex-start;
+gap: 10px;
+}
+
+  /*Header de oferta academica*/
+  
+  .txt_hdr_of_adc{
+    text-align: center;
+  }
+
+  .txt_hdr_of_adc h1{
+    font-size: 35px;
+  }
+  
+  .txt_hdr_of_adc p{
+    font-size: 16px;
+  }
+  
+  .txt_hdr_of_adc h4{
+    font-size: 16px;
+  }
+  
+  .img_hdr_of_adc img{
+    width: 350px;
+    vertical-align: middle;
+    
+  }
+
+
+/*Num de años, of, cuatri*/
+
+.header_cont_clm2{
+  width: 90%;
+  margin: auto;
+  padding: 2vw 2vh;
+}
+
+
+/*Diseño de carta lic-----------------*/
+
+.card-adc-grid-cont{
+  grid-template-columns: 1fr;
+
+}
+
+
+.card-container-ind{
+  width: 21rem;
+  height: 22.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+
+.flx-card-andc{
+width: 18rem;
+height: 18.5rem;
+}
+
+.txt-div-left{
+font-size: 16px;
+}
+
+.img-div-right img{
+  width: 11rem;
+  transform: translateY(30px);
+}
+
+/*Diseño de Maestrías*/
+
+.card-container-ind-mtr{
+  width: 21rem;
+  height: 22.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+/*Diseño de carta de doctorados*/
+
+.card-container-ind-doc{
+  width: 21rem;
+  height: 22.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+/*Diseño de carta de especialidades*/
+
+
+.card-container-ind-esp{
+  width: 21rem;
+  height: 22.5rem;
+  padding: 15px 0px 0px 15px;
+}
+
+  /*Diseño de las inscripciones*/
+
+  .img_flx_desa{
+    max-width: 300px;
+  }
+
+  .nav_top_padg_sep{
+    padding-top: 3rem;
+  }
+
+  /*Diseño de la pagina DESA-*/
+  .img_flx_desa{
+    max-width: 350px;
+  }
+
+
+  .font_size_title_global h1{
+  font-size: 1.9em;
+  }
+
+  /*Acomodo de la seccion de pagina no disponible*/
+.not_avilable_pag_cont{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+  padding: 100px 0px 100px 0px;
+}
+
+.not_avilable_pag_cont div h1{
+  font-size: 1.7rem;
+}
+
+/*INNOVA TEAM RESPONSIVE*/
+.card_ind_dis_team{
+  width: 18rem;
+  height: 18rem;
+}
+
+
+.card-container-ind{
+  width: 18rem;
+  height: 18rem;
+  padding: 20px 0px 0px 20px;
+}
+
+.card_ind_dis_team img{
+  width: 18rem;
+  height: 18rem;
+}
+
+.admin_coor_inv_txt{
+  width: auto;
+}
+
+
+}
+

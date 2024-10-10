@@ -11,15 +11,14 @@ function CardDte() {
       testdte:
         "La docente Aída no solo enseña psicología, sino que la vive. Su pasión por la materia es contagiosa, y cada clase es una inmersión en el fascinante mundo de la mente humana.",
       licdte: "Licenciada en Psicología",
-      sededte: "Campeche",
+      sededte: "Docente",
       imgdte1: dte_1vi,
       imgdte2: dte_1hov,
     },
     {
-      namedte: "Raúl Imanol Canepa Sarmiento",
-      testdte:
-        "Su pasión por el idioma inglés es evidente desde el momento en que entra en el aula. No se limita a enseñar gramática y vocabulario",
-      licdte: "Licenciado en Lengua Inglesa",
+      namedte: "Daniel Can",
+      testdte: "Como docente universitario de INNOVA, mi labor ha sido profundamente gratificante. Más allá de enseñar conceptos legales, busco inspirar a los estudiantes a ser profesionales éticos, comprometidos con la justicia y la responsabilidad social.",
+      licdte: "Licenciado en Derecho",
       sededte: "Campeche",
       imgdte1: dte_2vi,    
       imgdte2: dte_2hov,
@@ -53,7 +52,7 @@ function CardDte() {
               <br />
               <h4>{dte.licdte}</h4>
               <p className="col_txt_hd2">
-                Docente de Universidad INNOVA {dte.sededte}
+                {dte.sededte} de Universidad INNOVA
               </p>
             </div>
 

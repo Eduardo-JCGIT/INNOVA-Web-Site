@@ -1,17 +1,14 @@
 import Nav from "../global/Nav";
 import Footer from "../global/Footer";
 import ObjTeam from "./ObjTeam";
-import item2 from "../../img/innova_team_img/modal/mich_tagle.jpg";
-import { useEffect, useState } from "react";
 import { CgCloseO } from "react-icons/cg";
 import { SiGmail } from "react-icons/si";
 import { RiWhatsappFill } from "react-icons/ri";
+import { useEffect, useState } from "react";
+import { AnimatedModalWrapper } from '../spring/animate/AnimatedModalWrapper'; // Asegúrate de ajustar la ruta
 
-function Innovateam() {
-
-  /*Funcion del modal*/
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedItem, setSelectedItem] = useState(null);
+function InnovaTeam() {
+  const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = (item) => {
     setSelectedItem(item);
@@ -23,12 +20,11 @@ function Innovateam() {
     setModalOpen(false);
   };
 
-  const ToggleModal = () => {
-    setModalOpen(!modalOpen);
-  };
+  const [selectedItem, setSelectedItem] = useState(null);
+
 
   useEffect(() =>{
-    if (modalOpen) {
+    if (isModalOpen) {
       document.body.classList.add('no-scroll');
     } else {
       document.body.classList.remove('no-scroll');
@@ -37,20 +33,20 @@ function Innovateam() {
       document.body.classList.remove('no-scroll');
     };
 
-  }, [modalOpen]);
-
-
+  }, [isModalOpen]);
 
 
   return (
     <div>
-      <header>
+
+<header>
         <Nav />
-      </header>
+</header>
 
-      {/*----------------------------------------------------------------------------------------- */}
+      
+ {/*----------------------------------------------------------------------------------------- */}
 
-      <section className="container_global nav_top_padg_sep ft_nav_sep_pad con_box_hed_re">
+ <section className="container_global nav_top_padg_sep ft_nav_sep_pad con_box_hed_re">
         {/*-------------------------------------------------------------------------------------------- */}
         <div className="font_size_title_global col_txt_hd poppins-bold">
           <div className="clm_hd1 font_size_title_global">
@@ -72,19 +68,18 @@ function Innovateam() {
       </section>
       {/*-------------------------------------------------------------------------------------------- */}
 
-      {/*Este es el modal de las cartas separado en 2 secciones */}
+      {openModal && (
 
-      {/*Caja moaal de cada card */}
-      {modalOpen && (
 
-        <section className="modal_team_inv">
-          <div onClick={ToggleModal} className="overlay_modal_team"></div>
-          <div className="modal_cont_inf_team">
-          <span className="bx bx-x close" onClick={ToggleModal}><span><CgCloseO /></span></span> 
+      <AnimatedModalWrapper isOpen={isModalOpen}>
+              <div >
+        <div className="modal_cont_inf_team">
+        <span className="close" onClick={closeModal}><span><CgCloseO /></span></span> 
+      
+      {openModal && selectedItem && (
 
-          {modalOpen && selectedItem && (
-          <div className="admin_text">
-                  <img src={selectedItem.imgteam} alt={selectedItem.imgteam} />
+        <div className="admin_text">
+                  <img src={selectedItem.imgteam2} alt={selectedItem.imgteam2} />
                   <div className="text_cont_ind">
                     <h3>{selectedItem.hi}</h3>
                     <br />
@@ -99,18 +94,25 @@ function Innovateam() {
                     </ul>
                   </div>
           </div>
-            )}
 
-          </div>
-        </section>
+     )}
+               </div>
+               </div>
+
+      </AnimatedModalWrapper>
+
+
+
       )}
-    
-      {/*----------------------------------------------------------------------------------------- */}
+
+
       <div>
-        <Footer />
+        <Footer/>
       </div>
+
+
     </div>
   );
 }
 
-export default Innovateam;
+export default InnovaTeam

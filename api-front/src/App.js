@@ -10,6 +10,7 @@ import Desa from "./components/desa/Desa";
 import InfoLic from "./components/infacad/lic/InfoLic";
 import Inscription from "./components/inscription/Inscription";
 import Innovateam from "./components/innovateam/Innovateam";
+import NotAvilable from "./components/noavilable/NotAvilable";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <Route path="/Inscripciones" element={<Inscription/>}/>
         {/*Equipo INNOVA */}
         <Route path="/Equipo-INNOVA" element={<Innovateam/>}/>
+        {/*Pagina no disponible */}
+        <Route path="/404" element={<NotAvilable/>}/>
       </Routes>
   );
 }
