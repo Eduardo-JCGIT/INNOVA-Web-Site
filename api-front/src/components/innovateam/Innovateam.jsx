@@ -54,7 +54,7 @@ function InnovaTeam() {
             <h3>C A M P E C H E</h3>
           </div>
         </div>
-        <div className="card-adc-grid-cont">
+        <div className="card-adc-grid-cont-tm">
           {ObjTeam.map((item) => (
             <div className="card_ind_dis_team" key={item.idteam}  onClick={() => openModal(item)}>
               <img src={item.imgteam} alt={item.imgteam} />

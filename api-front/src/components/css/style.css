@@ -1000,9 +1000,21 @@ margin: 25px 0px 25px 0px;
   display: flex;
   flex-direction: row;
   gap: 40px;
+  margin: 0px 100px 0px 100px;
 }
 
+
+
 /*Equipo INNOVA*/
+
+/*Estructura Grid*/
+
+.card-adc-grid-cont-tm{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
 
 .card_ind_dis_team{
   background-image: url('../../img/innova_team_img/card_inv/card_inv_team.png');
@@ -1907,7 +1919,7 @@ font-size: 14px;
 }
 
 .card-container-ind-esp .flx-card-andc:hover > .img-div-right img{
-  transform: scale(1) translate(0px, 20px);
+  transform: scale(1) translateY(60px);
 }
 
   /*Diseño de las inscripciones*/
