@@ -85,7 +85,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20130383,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Analiza el comercio internacional y desarrolla estrategias para crecer en mercados globales.',
+        inf: 'Analiza el comercio internacional y estrategias para crecer en mercados globales.',
         imglic: NEI,
     },
     //LENGUA INGLESA
@@ -95,7 +95,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20130379,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Permite el dominio del inglés para interactuar y comprender información en un contexto global.',
+        inf: 'Dominio del inglés para interactuar y comprender información en un contexto.',
         imglic: LIN,
     },
     // ADMINISTRACION DE EMPRESAS TURISTICAS
@@ -115,7 +115,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20130381,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Desarrolla estrategias para promover productos y servicios, analizando el mercado y entendiendo las necesidades del consumidor.',
+        inf: 'Promover productos y servicios, analizando el mercado y entendiendo las necesidades del consumidor.',
         imglic: MER,
     },
     //CIENCIAS DE LA COMUNICACIÓN
@@ -135,7 +135,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20140255,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Optimiza métodos de enseñanza para mejorar el aprendizaje y el desarrollo educativo.',
+        inf: 'Optimiza métodos de enseñanza hacia el aprendizaje y el desarrollo educativo.',
         imglic: CED,
     },
     //GOBIERNO Y ADMINISTRACIÓN PUBLICA
@@ -155,7 +155,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         numrvoe: 20130378,
         cuatrimestres: 9,
         mode:'ONLINE',
-        inf: 'Crea y aplica tecnología para el manejo de información en diferentes sistemas y plataformas.',
+        inf: 'Crea y aplica tecnología para el manejo de información en diferentes sistemas.',
         imglic: INF,
     },
     //CIENCIAS DEL DEPORTE

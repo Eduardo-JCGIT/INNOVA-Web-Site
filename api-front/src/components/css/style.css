@@ -1288,7 +1288,7 @@ margin: 25px 0px 25px 0px;
   /*Diseño y tamaño de las cartas de cada licenciatura*/
 
   .card-adc-grid-cont{
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     gap: 20px;
     justify-items: center;
   }
@@ -1521,19 +1521,19 @@ margin: 25px 0px 25px 0px;
 /*Diseño de carta lic-----------------*/
 
 .card-adc-grid-cont{
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 
 }
 .card-container-ind{
-  width: 19rem;
-  height: 20.5rem;
+  width: 20rem;
+  height: 22.5rem;
   padding: 15px 0px 0px 15px;
 }
 
 
 .flx-card-andc{
-  width: 19rem;
-  height: 20.5rem;
+  width: 20rem;
+  height: 22.5rem;
 }
 
 .txt-div-left{
@@ -1541,23 +1541,39 @@ font-size: 16px;
 }
 
 .img-div-right img{
-  width: 11rem;
-  transform: translateY(30px);
+  width: 10rem;
+  transform: translateY(75px);
+}
+
+.card-container-ind .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translateY(60px);
+}
+
+.card-container-ind-mtr .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translateY(60px);
+}
+
+.card-container-ind-doc .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translateY(60px);
+}
+
+.card-container-ind-esp .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translateY(60px);
 }
 
 /*Diseño de Maestrías*/
 
 .card-container-ind-mtr{
-  width: 19rem;
-  height: 20.5rem;
+  width: 20rem;
+  height: 22.5rem;
   padding: 15px 0px 0px 15px;
 }
 
 /*Diseño de carta de doctorados*/
 
 .card-container-ind-doc{
-  width: 19rem;
-  height: 20.5rem;
+  width: 20rem;
+  height: 22.5rem;
   padding: 15px 0px 0px 15px;
 }
 
@@ -1565,13 +1581,14 @@ font-size: 16px;
 
 
 .card-container-ind-esp{
-  width: 19rem;
-  height: 20.5rem;
+  width: 20rem;
+  height: 22.5rem;
   padding: 15px 0px 0px 15px;
 }
 
 /*INNOVA TEAM DISEÑO RESPONSIVE*/
 
+/*
 .card-adc-grid-cont{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1595,6 +1612,7 @@ font-size: 16px;
   width: 21rem;
   height: 21rem;
 }
+  */
 
 
 }
@@ -1829,39 +1847,39 @@ gap: 10px;
 
 
 .card-container-ind{
-  width: 21rem;
-  height: 22.5rem;
+  width: 19rem;
+  height: 20.5rem;
   padding: 15px 0px 0px 15px;
 }
 
 
 .flx-card-andc{
-width: 18rem;
-height: 18.5rem;
+width: 19rem;
+height: 20.5rem;
 }
 
 .txt-div-left{
-font-size: 16px;
+font-size: 14px;
 }
 
 .img-div-right img{
-  width: 11rem;
-  transform: translateY(30px);
+  width: 10rem;
+  transform: translate(10px ,30px);
 }
 
 /*Diseño de Maestrías*/
 
 .card-container-ind-mtr{
-  width: 21rem;
-  height: 22.5rem;
+  width: 19rem;
+  height: 20.5rem;
   padding: 15px 0px 0px 15px;
 }
 
 /*Diseño de carta de doctorados*/
 
 .card-container-ind-doc{
-  width: 21rem;
-  height: 22.5rem;
+  width: 19rem;
+  height: 20.5rem;
   padding: 15px 0px 0px 15px;
 }
 
@@ -1869,9 +1887,27 @@ font-size: 16px;
 
 
 .card-container-ind-esp{
-  width: 21rem;
-  height: 22.5rem;
+  width: 19rem;
+  height: 20.5rem;
   padding: 15px 0px 0px 15px;
+}
+
+
+
+.card-container-ind .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translate(0px, 20px);
+}
+
+.card-container-ind-mtr .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translate(0px, 20px);
+}
+
+.card-container-ind-doc .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translate(0px, 20px);
+}
+
+.card-container-ind-esp .flx-card-andc:hover > .img-div-right img{
+  transform: scale(1) translate(0px, 20px);
 }
 
   /*Diseño de las inscripciones*/
@@ -1908,6 +1944,7 @@ font-size: 16px;
 }
 
 /*INNOVA TEAM RESPONSIVE*/
+/*
 .card_ind_dis_team{
   width: 18rem;
   height: 18rem;
@@ -1928,6 +1965,8 @@ font-size: 16px;
 .admin_coor_inv_txt{
   width: auto;
 }
+
+*/
 
 
 }

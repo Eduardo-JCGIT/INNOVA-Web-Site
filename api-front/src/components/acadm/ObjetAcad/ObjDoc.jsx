@@ -12,7 +12,7 @@ const ObjDoc = [
         numrvoe: 20231699,
         cuatrimestres: 6,
         mode: 'ONLINE',
-        inf: 'Investigación avanzada y el desarrollo de nuevas metodologías para mejorar la calidad educativa y el liderazgo académico.',
+        inf: 'Metodologías para mejorar la calidad educativa y el liderazgo académico.',
         imgdoc: DOE,
     },
     {
@@ -21,7 +21,7 @@ const ObjDoc = [
         numrvoe: 20231700,
         cuatrimestres: 6,
         mode: 'ONLINE',
-        inf: 'Análisis profundo de teorías y prácticas jurídicas para contribuir al desarrollo del derecho y la justicia.',
+        inf: 'Prácticas jurídicas para contribuir al desarrollo del derecho.',
         imgdoc: DOD,
     },
     {
@@ -30,7 +30,7 @@ const ObjDoc = [
         numrvoe: 20232691,
         cuatrimestres: 6,
         mode: 'ONLINE',
-        inf: 'Desarrollo de teorías y prácticas para optimizar la gestión y estrategias empresariales.',
+        inf: 'Optimizar la gestión y estrategias empresariales.',
         imgdoc: DOA,
     },
 ];

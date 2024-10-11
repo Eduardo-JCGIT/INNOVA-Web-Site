@@ -11,7 +11,7 @@ const ObjEsp = [
         numrvoe: 20232694,
         cuatrimestres: 2,
         mode: 'ONLINE',
-        inf: 'Enfocado en contabilidad y normativa fiscal, con énfasis en planificación tributaria y auditoría.',
+        inf: 'Enfocado en contabilidad, normativa fiscal tributaria y auditoría.',
         imgesp: EED,
     },
 
@@ -21,7 +21,7 @@ const ObjEsp = [
         numrvoe: 20232692,
         cuatrimestres: 4,
         mode: 'ONLINE',
-        inf: 'Evaluar la exactitud de los informes financieros, el cumplimiento de las normas y regulaciones.',
+        inf: 'Cumplimiento de las normas y regulaciones.',
         imgesp: EAS,
     },
 
@@ -31,7 +31,7 @@ const ObjEsp = [
         numrvoe: 202100311,
         cuatrimestres: 3,
         mode: 'ONLINE',
-        inf: 'Gestión de recursos financieros, planificación, inversión y análisis para optimizar el rendimiento económico.',
+        inf: 'Gestión de recursos financieros, planificación',
         imgesp: ECR,
     },
 
