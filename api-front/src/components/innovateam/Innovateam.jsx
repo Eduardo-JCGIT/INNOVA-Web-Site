@@ -70,7 +70,6 @@ function InnovaTeam() {
 
       {openModal && (
 
-
       <AnimatedModalWrapper isOpen={isModalOpen}>
               <div >
         <div className="modal_cont_inf_team">
@@ -94,23 +93,14 @@ function InnovaTeam() {
                     </ul>
                   </div>
           </div>
-
      )}
                </div>
                </div>
-
       </AnimatedModalWrapper>
-
-
-
       )}
-
-
       <div>
         <Footer/>
       </div>
-
-
     </div>
   );
 }

@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 function CardLic() {
   console.log(ObjLic);
   return (
-
     
     <div className="header_cont_clm2">
 
@@ -37,22 +36,13 @@ function CardLic() {
         <div className="img-div-right">
           <img src={item.imglic} alt={item.imglic} />
         </div>
-        
         </div> 
-
-
       </div>
       </Link>
- 
+
         ))}
-
-
-
-          
         
-      </div>
-
-      
+      </div>      
     </div>
   );
 }

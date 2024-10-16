@@ -14,19 +14,6 @@ import adri_patt2 from "../../img/innova_team_img/adri_patt_card.jpg";
 import mich_tagle2 from "../../img/innova_team_img/mich_tagle_card.jpg";
 
 const ObjTeam = [
-  //Director Carlos
-  {
-    idteam: 1,
-    name: "Lic. Carlos Navarro ",
-    area: "Director General",
-    imgteam: mich_tagle,
-    hi: "¡Hola a todos! Me llamo Carlos Navarro",
-    journaling: "En mi día a día, superviso y coordino todas las operaciones de la Universidad INNOVA en Campeche. Me encargo de establecer y mantener estrategias para el crecimiento institucional.",
-    degree: "Licenciado en Derecho",
-    email: "direccion01.innova@gmail.com",
-    phone: "+52 999 737 2165",
-  },
-
   //Representante Carlos
   {
     idteam: 2,

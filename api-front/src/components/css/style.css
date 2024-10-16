@@ -386,6 +386,14 @@
   align-items: center;
 }
 
+.cont_info_ind3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;  
+}
+
 
 
 .cont_info_item1 h3{
@@ -1072,7 +1080,8 @@ margin: 25px 0px 25px 0px;
 .con_box_hed_re{
   position: relative;
 }
-/*Modal de cada carta*/
+
+/*Modal de cada carta de INNOVA Team*/
 
 .modal_cont_inf_team{
   line-height: 1.4;
@@ -1372,6 +1381,11 @@ margin: 25px 0px 25px 0px;
   flex-direction: column;
 }
 
+.flx_desa_reverse2{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /*Acomodo de la seccion de pagina no disponible*/
 .not_avilable_pag_cont{
   display: flex;
@@ -1626,6 +1640,10 @@ font-size: 16px;
 }
   */
 
+/*DESA responsive*/
+
+
+
 
 }
 
@@ -1666,14 +1684,7 @@ font-size: 16px;
 /*Diseño del boton del INDEX*/
 
 .btn-cont1{
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 70%;
-  gap: 1em;
-}
-
-.btn-cont1{
-  width: 50%;
+  width: 60%;
   gap: 1em;
 }
 .btn-cont1 button{
@@ -1977,9 +1988,66 @@ font-size: 14px;
 .admin_coor_inv_txt{
   width: auto;
 }
-
 */
 
+/*Modal de cada carta de INNOVA Team*/
+
+.modal_cont_inf_team{
+  line-height: 1.4;
+  max-width: 550px;
+  width: 90%;
+}
+
+.modal_cont_inf_team .admin_text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_cont_ind{
+  color: var(--white1);
+  margin: 20px 20px 20px 20px;
+}
+
+.text_cont_ind .grd_acad_team{
+  color: var(--blue7);
+}
+
+.modal_cont_inf_team img{
+  height: 270px;
+  width: 270px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.modal_cont_inf_team .close{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--white3);
+  transition: all .3s ease-in-out;
+}
+
+.modal_cont_inf_team .close:hover{
+  color: var(--blue4);
+}
+
+.text_cont_ind ul li{
+  display: flex;
+  align-items: center;
+}
+
+.text_cont_ind ul li span{
+  margin-right: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.no-scroll {  
+  overflow: hidden;
+}
 
 }
 

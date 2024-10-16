@@ -5,7 +5,7 @@ import item1 from "../../img/desa/item_desa_1.png";
 import item2 from "../../img/desa/item_desa_2.png";
 import item3 from "../../img/desa/item_desa_3.png";
 import item4 from "../../img/desa/item_desa_4.png";
-import { CgMonday } from "react-icons/cg";
+import { PiFireSimpleFill } from "react-icons/pi";
 
 function Desa() {
 
@@ -46,7 +46,7 @@ function Desa() {
 
     <div className="cont_color_anch_desa color txt_sec_desa_anch">
     <div className="container_global">
-        <div className="flx_desa_grid">
+        <div className="flx_desa_grid flx_desa_reverse">
           <div>
             <div className="font_size_title_global">
             <h1 className="poppins-bold">CAPACITACIÓN A DOCENTES</h1>
@@ -57,9 +57,9 @@ function Desa() {
             </p>
             <br />  
             <ul>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Estrategias pedagógicas innovadoras</li>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Manejo de la diversidad en el aula</li>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Técnicas de apoyo socioemocional</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Estrategias pedagógicas innovadoras</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Manejo de la diversidad en el aula</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Técnicas de apoyo socioemocional</li>
             </ul>
           </div>
 
@@ -68,7 +68,7 @@ function Desa() {
           </div>
         </div>
 
-        <div className="flx_desa_grid flx_desa_reverse">
+        <div className="flx_desa_grid flx_desa_reverse2">
           <div className="flx_desa_cent_img">
             <img src={item3} alt={item3} className="img_flx_desa" />
           </div>
@@ -82,9 +82,9 @@ Estos esfuerzos están enfocados en mejorar la interacción y el entendimiento m
             </p>
             <br />
             <ul>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Abordar en estos talleres temas relevantes como la comunicación efectiva, la gestión del tiempo y el manejo del estrés académico, proporcionando herramientas útiles.</li>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Facilitar un espacio seguro y acogedor para compartir experiencias y buscar soluciones conjuntas a problemas comunes.</li>
-              <li className="li_marg_ds_glb"><span><CgMonday className='Cg_color_item2'/>  </span> Promover una cultura de colaboración y apoyo mutuo dentro de nuestra comunidad universitaria, fortaleciendo el sentido de pertenencia y camaradería.</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Abordar en estos talleres temas relevantes como la comunicación efectiva, la gestión del tiempo y el manejo del estrés académico, proporcionando herramientas útiles.</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Facilitar un espacio seguro y acogedor para compartir experiencias y buscar soluciones conjuntas a problemas comunes.</li>
+              <li className="li_marg_ds_glb"><span><PiFireSimpleFill className='Cg_color_item2'/>  </span> Promover una cultura de colaboración y apoyo mutuo dentro de nuestra comunidad universitaria, fortaleciendo el sentido de pertenencia y camaradería.</li>
             </ul>
           </div>
         </div>
@@ -93,7 +93,7 @@ Estos esfuerzos están enfocados en mejorar la interacción y el entendimiento m
 
 
         <div className="container_global">
-        <div className="flx_desa_grid">
+        <div className="flx_desa_grid flx_desa_reverse">
           <div>
           <div className="font_size_title_global">
             <h1 className="col_txt_hd2 poppins-bold">ACTIVIDADES PARA EL DESARROLLO DE HABILIDADES</h1>

@@ -3,6 +3,7 @@ import CardAlu from '../global/lytcard/CardAlu';
 import element4 from '../../img/index/element4.png';
 import element5 from '../../img/index/element5.png';
 import { CgMonday } from "react-icons/cg";
+import { PiFireSimpleFill } from "react-icons/pi";
 
 const Infpt2 = () => {
 
@@ -18,9 +19,9 @@ const Infpt2 = () => {
             <br />
             <p>Un especialista en la materia, altamente capacitado para impartir cátedra.</p>
             <br/>
-            <p><CgMonday className='Cg_color_item'/> 5 años de experiencia como docente</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/> 5 años de experiencia como docente</p>
             <br/>
-            <p><CgMonday className='Cg_color_item'/> 5 años de experiencia laboral</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/> 5 años de experiencia laboral</p>
             <br />
             <p>De esta manera aseguramos que el alumno viva las experiencias de sus docentes, no solo es teoría si no práctica.</p>
             </div>
@@ -36,13 +37,13 @@ const Infpt2 = () => {
             <br />
             <p>Un estudiante en la Universidad INNOVA se beneficia de una educación flexible y moderna.</p>
             <br/>
-            <p><CgMonday className='Cg_color_item'/>Sabatinas y en línea.</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/>Sabatinas y en línea.</p>
             <br/>
-            <p><CgMonday className='Cg_color_item'/>Respaldadas por herramientas como Google Workspace for Education.</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/>Respaldadas por herramientas como Google Workspace for Education.</p>
             <br />
-            <p><CgMonday className='Cg_color_item'/>Los estudiantes pueden aprender de manera asincrónica y recibir asesorías presenciales cuando sea necesario.</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/>Los estudiantes pueden aprender de manera asincrónica y recibir asesorías presenciales cuando sea necesario.</p>
             <br />
-            <p><CgMonday className='Cg_color_item'/>Actividades extracurriculares.</p>
+            <p><PiFireSimpleFill className='Cg_color_item'/>Actividades extracurriculares.</p>
             <br />
             </div>
 
