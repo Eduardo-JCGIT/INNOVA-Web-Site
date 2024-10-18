@@ -177,27 +177,36 @@
     transition: max-height 0.5s ease-out;
   }
 
-  .drop_nav_of .drop_li_of{
-    padding: 10px 10px;
-    color: var(--blue2);
-    font-weight: 600;
-    display: block;
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
-  }
-
   .drop_nav_of .drop_li_of:hover{
     background-color: var(--white3);
     border-radius: 0;
     transition: all 0.5;
   }
 
+
   .drop_nav_of_mobile{
     display: none;
   }
 
+  .dis_mobile_submenu{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .icon_drop_submenu{
+   font-size: 35px;
+   transition: all 1s ease-out;
+  }
+
+  .icon_drop_submenu.rotate{
+    transform: rotate(180deg);
+  }
+
+
   
   }
+
+  /*Menu lop*/
   
   .nav_ul{
     display: flex;

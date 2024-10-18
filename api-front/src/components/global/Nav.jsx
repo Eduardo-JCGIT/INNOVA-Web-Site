@@ -4,6 +4,7 @@ import innova3png from '../../img/icon/innova3.png';
 import { CgClose } from "react-icons/cg";
 import { CgFormatJustify } from "react-icons/cg";
 import { BsFillCaretRightFill } from "react-icons/bs";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 
 function Nav (){
@@ -68,8 +69,9 @@ function Nav (){
                   <li className="nav_li ">
                         <div className='nav_router'>
                         <div onClick={touchMenu} >
-
-                        <span>Oferta Academica</span>
+                        <div className='dis_mobile_submenu'>
+                        <span>Oferta Academica</span><span><RiArrowDropDownLine className={`icon_drop_submenu ${setAvailableMenu ? 'rotate' : ''}`}/></span> 
+                        </div>
                         </div>
                         {AvailableMenu && (
                         <ul className='drop_nav_of'>
