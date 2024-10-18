@@ -38,6 +38,15 @@ function Nav (){
    }));
  };
 
+
+ /*Sub Menu responsive */
+
+   const [AvailableMenu, setAvailableMenu] = useState (false);
+
+   const touchMenu = () =>{
+      setAvailableMenu(!AvailableMenu);
+ }
+
     return(
         <div className='position-fixed-nav-global'>
          <div className="header_nav">
@@ -58,14 +67,20 @@ function Nav (){
 
                   <li className="nav_li ">
                         <div className='nav_router'>
+                        <div onClick={touchMenu} >
+
                         <span>Oferta Academica</span>
                         </div>
+                        {AvailableMenu && (
                         <ul className='drop_nav_of'>
                            <Link to="/Licenciaturas"> <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Licenciaturas</li></Link> 
                            <Link to="/Maestrias"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Maestrías</li></Link> 
                            <Link to="/Doctorados"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Doctorados</li></Link>
                            <Link to="/Especialidades">  <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Especialidades</li></Link> 
                         </ul>
+                        )}
+                        </div>
+               
                   </li>
 
                   <li className="nav_li">

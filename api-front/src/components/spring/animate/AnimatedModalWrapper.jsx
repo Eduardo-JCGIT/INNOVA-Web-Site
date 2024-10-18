@@ -30,7 +30,7 @@ export const AnimatedModalWrapper = ({ isOpen, onClose, children }) => {
             (modalStyle, modalItem) =>
 
               modalItem && (
-                <animated.div style={modalStyle} className="modal_cont_inf_team">
+                <animated.div style={modalStyle} >
                   {children} {/* Aquí se renderiza el contenido del modal */}
                 </animated.div>
               )
