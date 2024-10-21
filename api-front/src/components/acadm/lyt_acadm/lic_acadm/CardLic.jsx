@@ -1,7 +1,6 @@
 import ObjLic from "../../ObjetAcad/ObjLic";
 import { BiSolidBookBookmark } from "react-icons/bi";
 import { BiSolidLayout } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 function CardLic() {
   console.log(ObjLic);
@@ -15,7 +14,7 @@ function CardLic() {
       
       {/*Fondo de la imagen*/}
       {ObjLic.map((item) => (
-       <Link to="/Pedagogia">
+       <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.idlic} className="card-container-ind">
 
         {/*Tamaño de la carta*/}
@@ -38,7 +37,7 @@ function CardLic() {
         </div>
         </div> 
       </div>
-      </Link>
+      </a>
 
         ))}
         

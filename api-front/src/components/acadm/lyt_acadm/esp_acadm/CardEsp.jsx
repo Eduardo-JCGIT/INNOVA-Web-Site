@@ -2,6 +2,7 @@ import ObjEsp from "../../ObjetAcad/ObjEsp";
 import { BiSolidBookBookmark } from "react-icons/bi";
 import { BiSolidLayout } from "react-icons/bi";
 
+
 function CardEsp() {
   return (
 
@@ -14,6 +15,7 @@ function CardEsp() {
       
       {/*Fondo de la imagen*/}
       {ObjEsp.map((item) => (
+        <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.idesp} className="card-container-ind-esp">
 
         {/*Tamaño de la carta*/}
@@ -35,7 +37,8 @@ function CardEsp() {
           <img src={item.imgesp} alt={item.imgesp} />
         </div>
         </div> 
-      </div>   
+      </div>  
+      </a> 
         ))}
       </div>
     </div>

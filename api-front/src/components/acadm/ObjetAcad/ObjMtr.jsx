@@ -17,6 +17,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Enfocado en contabilidad y normativa fiscal, con énfasis en planificación tributaria y auditoría.',
         imgmtr: FIC,
+        pdfof: 'https://drive.google.com/file/d/1KvRlogQzSyf-hISlD6JCe8dD7Cjr7oQi/view'
     },
 
     {
@@ -27,6 +28,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Evaluar informes financieros, el cumplimiento de las normas y regulaciones.',
         imgmtr: AUD,
+        pdfof: 'https://drive.google.com/file/d/1guRZ3hKIGRtudw787DCwZB_U7nMz5f5B/view'
     },
 
     {
@@ -37,6 +39,7 @@ const ObjMtr = [
         mode: 20140258,
         inf: 'Gestiones financieros, planificación y análisis del rendimiento económico.',
         imgmtr: MFZ,
+        pdfof: 'https://drive.google.com/file/d/1RZecO49Tr36zPZOfIbts5_7ScQyGmcU4/view'
     },
 
     {
@@ -47,6 +50,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Estrategias avanzadas para operar y expandirse en mercados globales.',
         imgmtr: MNI,
+        pdfof: 'https://drive.google.com/file/d/1LwNR6FYdgFXGu_fyVCGnaTr3Rb5Pjmo7/view'
     },
 
     {
@@ -57,6 +61,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Mejorar métodos de enseñanza y optimizar el proceso de aprendizaje.',
         imgmtr: MCE,
+        pdfof: 'https://drive.google.com/file/d/1HuMLO0iysTn3sRCuzuGzJLXfYjXWOEXW/view'
     },
 
     {
@@ -67,6 +72,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Regulación ambiental y prácticas para promover la sostenibilidad.',
         imgmtr: DAM,
+        pdfof: 'https://drive.google.com/file/d/1o2jJGzmuIG0l7MLgIYBVYBGSW_4FNwlA/view'
     },
 
     {
@@ -77,6 +83,7 @@ const ObjMtr = [
         mode: 'ONLINE',
         inf: 'Aplicar métodos innovadores y transformadores para optimizar el aprendizaje.',
         imgmtr: MIE,
+        pdfof: 'https://drive.google.com/file/d/1dkcL4tU1W3jmOl-j-FGCPREEKUue1sbz/view'
     },
 
 ];

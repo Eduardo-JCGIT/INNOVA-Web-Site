@@ -27,6 +27,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode: 'ONLINE',
         inf: 'Ciencia que estudia la mente y el comportamiento humano.',
         imglic: psiimg,
+        pdfof: "https://drive.google.com/file/d/1zUshcL1nqlOJDpZ6gCi1BXlkeaYbZz0k/view"
     },
     //Pedagogía
     {
@@ -37,6 +38,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Disciplina que se encarga del estudio de los procesos de enseñanza y aprendizaje.',
         imglic: PED,
+        pdfof: 'https://drive.google.com/file/d/1055cw-47ptpGo0F6RAPbxYtl8rsFfKTg/view'
     },
     //Derecho
     {
@@ -47,6 +49,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Regula la conducta humana mediante normas para garantizar el orden y la justicia.',
         imglic: DER,
+        pdfof: 'https://drive.google.com/file/d/1H6XyoI-5JFJHv4EjJg-QOP8d-Po9gHnL/view'
     },
     //CONTABILIDAD
     {
@@ -57,6 +60,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Registra y analiza operaciones financieras para informar decisiones económicas.',
         imglic: CON,
+        pdfof: 'https://drive.google.com/file/d/1elk-uMoBxf-QaKaEmQ5a3_Gdhyd-CXOV/view'
     },
     //SISTEMAS COMPUTACIONALES
     {
@@ -67,6 +71,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Conjunto de funciones interrelacionadas, hardware, software y recursos humanos.',
         imglic: SIS,
+        pdfof: 'https://drive.google.com/file/d/19bDqSYpV8EkAOhOig3xnMVwzubnKZ8uz/view'
     },
     //ADMINISTRACION DE EMPRESAS
     {
@@ -77,6 +82,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Organiza y dirige recursos para alcanzar objetivos estratégicos y operativos eficientemente.',
         imglic: ADM,
+        pdfof: 'https://drive.google.com/file/d/1qzi-7XjmHdvv7BeZXqTtMFc0gqLvD0sP/view'
     },
     //NEGOCIOS INTERNACIONALES
     {
@@ -87,6 +93,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Analiza el comercio internacional y estrategias para crecer en mercados globales.',
         imglic: NEI,
+        pdfof: 'https://drive.google.com/file/d/1Yv4Rs215BK_ix8Wer1vxZcsfk2VbfhqB/view'
     },
     //LENGUA INGLESA
     {
@@ -97,6 +104,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Dominio del inglés para interactuar y comprender información en un contexto.',
         imglic: LIN,
+        pdfof: 'https://drive.google.com/file/d/17viwNuWchGhEPc1wi9qpZL0dkZkgal2T/view'
     },
     // ADMINISTRACION DE EMPRESAS TURISTICAS
     {
@@ -107,6 +115,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Gestiona recursos y operaciones en el sector turístico para ofrecer servicios de calidad',
         imglic: ADT,
+        pdfof: 'https://drive.google.com/file/d/1qzi-7XjmHdvv7BeZXqTtMFc0gqLvD0sP/view'
     },
     //MERCADOCTENIA
     {
@@ -117,6 +126,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Promover productos y servicios, analizando el mercado y entendiendo las necesidades del consumidor.',
         imglic: MER,
+        pdfof: 'https://drive.google.com/file/d/1snec7TvtSWN3_7xQong52AjUzsxfw_JV/view'
     },
     //CIENCIAS DE LA COMUNICACIÓN
     {
@@ -127,6 +137,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Gestiona procesos de comunicación y crea mensajes efectivos para diversos medios.',
         imglic: COM,
+        pdfof: 'https://drive.google.com/file/d/13y9ILMskGtTO8RGY09aFUqYkZfCL580o/view'
     },
     //CIENCIAS DE LA EDUCACIÓN
     {
@@ -137,6 +148,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Optimiza métodos de enseñanza hacia el aprendizaje y el desarrollo educativo.',
         imglic: CED,
+        pdfof: 'https://drive.google.com/file/d/1xBHkOR_ltIleknueGXZDDElFDjM9MBSJ/view'
     },
     //GOBIERNO Y ADMINISTRACIÓN PUBLICA
     {
@@ -147,6 +159,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Administra políticas y servicios públicos para garantizar el buen funcionamiento de las instituciones.',
         imglic: AGO,
+        pdfof: 'https://drive.google.com/file/d/16YpOGgbEhkdctqP39AEu_J3c4l3Eox0h/view'
     },
     //INFORMATICA 
     {
@@ -157,6 +170,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Crea y aplica tecnología para el manejo de información en diferentes sistemas.',
         imglic: INF,
+        pdfof: 'https://drive.google.com/file/d/1lAX53gpwVX_YrwaCLsx5TXFF7bar_Jsa/view'
     },
     //CIENCIAS DEL DEPORTE
     {
@@ -167,6 +181,7 @@ import CDE from '../../../img/of_acad/licenciaturas/card_lic/CDE_card.png'
         mode:'ONLINE',
         inf: 'Analiza el rendimiento físico y la salud para mejorar el entrenamiento y prevenir lesiones.',
         imglic: CDE,
+        pdfof: 'https://drive.google.com/file/d/13CbLPB0qFVsxtjiwD6tI7Nz9jj2Y-389/view'
     },
 
 

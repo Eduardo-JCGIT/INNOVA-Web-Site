@@ -1,6 +1,7 @@
 import ObjDoc from "../../ObjetAcad/ObjDoc";
 import { BiSolidBookBookmark } from "react-icons/bi";
 import { BiSolidLayout } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function CardDoc() {
   return (
@@ -14,6 +15,7 @@ function CardDoc() {
       
       {/*Fondo de la imagen*/}
       {ObjDoc.map((item) => (
+        <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.iddoc} className="card-container-ind-doc">
 
         {/*Tamaño de la carta*/}
@@ -38,7 +40,8 @@ function CardDoc() {
         </div> 
 
 
-      </div>   
+      </div>
+      </a> 
  
         ))}
 

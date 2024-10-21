@@ -13,6 +13,7 @@ const ObjEsp = [
         mode: 'ONLINE',
         inf: 'Enfocado en contabilidad, normativa fiscal tributaria y auditoría.',
         imgesp: EED,
+        pdfof: 'https://drive.google.com/file/d/1d7ZZW7VWHVIga-riGQrWeNt9yxd5aN9f/view'
     },
 
     {
@@ -23,6 +24,7 @@ const ObjEsp = [
         mode: 'ONLINE',
         inf: 'Cumplimiento de las normas y regulaciones.',
         imgesp: EAS,
+        pdfof: 'https://drive.google.com/file/d/1UaM8SqFwsFyoe77rDAqC33LRwRvIbq5s/view'
     },
 
     {
@@ -33,6 +35,7 @@ const ObjEsp = [
         mode: 'ONLINE',
         inf: 'Gestión de recursos financieros, planificación',
         imgesp: ECR,
+        pdfof: 'https://drive.google.com/file/d/1vVwvuG9wLHuzp3km_A9c9ZkYxUalQpCT/view'
     },
 
 ];

@@ -68,20 +68,16 @@ function Nav (){
 
                   <li className="nav_li ">
                         <div className='nav_router'>
-                        <div onClick={touchMenu} >
                         <div className='dis_mobile_submenu'>
                         <span>Oferta Academica</span><span><RiArrowDropDownLine className={`icon_drop_submenu ${setAvailableMenu ? 'rotate' : ''}`}/></span> 
                         </div>
                         </div>
-                        {AvailableMenu && (
                         <ul className='drop_nav_of'>
                            <Link to="/Licenciaturas"> <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Licenciaturas</li></Link> 
                            <Link to="/Maestrias"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Maestrías</li></Link> 
                            <Link to="/Doctorados"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Doctorados</li></Link>
                            <Link to="/Especialidades">  <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Especialidades</li></Link> 
                         </ul>
-                        )}
-                        </div>
                
                   </li>
 

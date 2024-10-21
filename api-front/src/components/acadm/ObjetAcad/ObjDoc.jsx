@@ -14,6 +14,7 @@ const ObjDoc = [
         mode: 'ONLINE',
         inf: 'Metodologías para mejorar la calidad educativa y el liderazgo académico.',
         imgdoc: DOE,
+        pdfof: 'https://drive.google.com/file/d/1KbqAL8_76-rhM3izA6K_w-vcQRULbEXy/view'
     },
     {
         iddoc: 2,
@@ -23,6 +24,7 @@ const ObjDoc = [
         mode: 'ONLINE',
         inf: 'Prácticas jurídicas para contribuir al desarrollo del derecho.',
         imgdoc: DOD,
+        pdfof: 'https://drive.google.com/file/d/1SXuzpJEY-A13yDzaMuWjCCX5QLm80txL/view'
     },
     {
         iddoc: 3,
@@ -32,6 +34,7 @@ const ObjDoc = [
         mode: 'ONLINE',
         inf: 'Optimizar la gestión y estrategias empresariales.',
         imgdoc: DOA,
+        pdfof: 'https://drive.google.com/file/d/12BdaUc59JNUxwa4p63hbb0-rHWNVZ273/view'
     },
 ];
 

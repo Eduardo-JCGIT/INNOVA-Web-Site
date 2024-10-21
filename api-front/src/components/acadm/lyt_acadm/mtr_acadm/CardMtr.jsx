@@ -14,6 +14,7 @@ function CardMtr() {
       
       {/*Fondo de la imagen*/}
       {ObjMtr.map((item) => (
+      <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.idmtr} className="card-container-ind-mtr">
 
         {/*Tamaño de la carta*/}
@@ -38,7 +39,8 @@ function CardMtr() {
         </div> 
 
 
-      </div>   
+      </div>
+      </a> 
  
         ))}
 
