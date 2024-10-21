@@ -63,11 +63,6 @@
 
   /*Oferta academica, seccion de menu*/
 
-  .nav_li:hover .drop_nav_of  {
-    display: block;
-    transition: all 1s ease-in-out;
-    padding: 10px 0px 10px 0px;
-  }
   
   .drop_nav_of{
     display: none;
@@ -78,6 +73,28 @@
     box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
     transition: all 1s ease-in-out;
   }
+
+/* ========================== */
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: var(--white2);
+    border-radius: 10px;
+    min-width: 200px;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all 1s ease-in-out;
+  }
+  
+  .nav_li:hover .submenu {
+    display: block;
+  }
+
+  .submenu.active {
+    display: none;
+  }
+
+
+  /* =========================== */
 
   .drop_nav_of .drop_li_of{
     padding: 10px 10px;
@@ -162,13 +179,11 @@
   }
 
   .nav_li:hover .drop_nav_of  {
-    display: block;
     transition: all 1s ease-in-out;
     padding: 0px 0px 0px 0px;
   }
   
   .drop_nav_of{
-    display: block;
     position: relative;
     background-color: var(--white3);
     border-radius: 0px;
@@ -186,6 +201,7 @@
 
   .drop_nav_of_mobile{
     display: none;
+
   }
 
   .dis_mobile_submenu{
@@ -202,6 +218,20 @@
     transform: rotate(180deg);
   }
 
+  /* Desactivar el hover en pantallas pequeñas */
+  .nav_li .submenu  {
+    display: block;
+  }
+
+  .nav_li:hover .submenu  {
+    display: none;
+  }
+
+  /* Mostrar submenu con clic (controlado por React) */
+  .submenu.active {
+    display: block;
+    transition: all 0.3s ease;
+  }
 
   
   }
@@ -310,12 +340,14 @@
       flex-direction: row;
       column-gap: 3.5rem;
     }
+    
+  .nav_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 3.5rem;
+  }
   
-    .nav_menu {
-      display: flex;
-      align-items: center;
-      column-gap: 3.5rem;
-    }
+
   }
 
 /*variables globales global */

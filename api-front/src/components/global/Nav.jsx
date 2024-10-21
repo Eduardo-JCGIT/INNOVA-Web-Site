@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import innova3png from '../../img/icon/innova3.png';
 import { CgClose } from "react-icons/cg";
@@ -42,11 +42,29 @@ function Nav (){
 
  /*Sub Menu responsive */
 
-   const [AvailableMenu, setAvailableMenu] = useState (false);
+ const [AvailableMenu, setAvailableMenu] = useState(false);
+ const [isMobile, setIsMobile] = useState(false);
 
-   const touchMenu = () =>{
-      setAvailableMenu(!AvailableMenu);
- }
+ // Detectar el tamaño de la pantalla para saber si es móvil o tablet
+ useEffect(() => {
+   const handleResize = () => {
+     setIsMobile(window.innerWidth <= 1150);
+   };
+
+   handleResize(); // Verificar el tamaño de pantalla al cargar
+   window.addEventListener('resize', handleResize); // Escuchar cambios en el tamaño de la pantalla
+
+   return () => {
+     window.removeEventListener('resize', handleResize);
+   };
+
+ }, []);
+
+ const touchMenu = () => {
+   if (isMobile) {
+     setAvailableMenu(!AvailableMenu);
+   }
+ };
 
     return(
         <div className='position-fixed-nav-global'>
@@ -68,17 +86,17 @@ function Nav (){
 
                   <li className="nav_li ">
                         <div className='nav_router'>
-                        <div className='dis_mobile_submenu'>
+
+                        <div className='dis_mobile_submenu' onClick={touchMenu} >
                         <span>Oferta Academica</span><span><RiArrowDropDownLine className={`icon_drop_submenu ${setAvailableMenu ? 'rotate' : ''}`}/></span> 
                         </div>
                         </div>
-                        <ul className='drop_nav_of'>
+                        <ul className={`drop_nav_of submenu ${AvailableMenu ? 'active' : ''}`}>
                            <Link to="/Licenciaturas"> <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Licenciaturas</li></Link> 
                            <Link to="/Maestrias"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Maestrías</li></Link> 
                            <Link to="/Doctorados"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Doctorados</li></Link>
                            <Link to="/Especialidades">  <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Especialidades</li></Link> 
                         </ul>
-               
                   </li>
 
                   <li className="nav_li">
@@ -117,26 +135,18 @@ function Nav (){
                   </Link>
                   </li>
                </ul>
-
-
-
                 {/*Tap Exit */}
 
                <div id='nav_exit' className='nav_exit' onClick={handleCloseMenu}>
                <CgClose  onClick={handleClickIcon1}/>
                </div>
-
             </div>
-
                 {/*Tap Menu */}
-
             <div className="nav_tap" onClick={handleToggleMenu}>
             {visibleIcons.icon1 && (
             <CgFormatJustify onClick={handleClickIcon2} />
                )}
             </div>
-
-
          </nav>
         </div>
         </div>
