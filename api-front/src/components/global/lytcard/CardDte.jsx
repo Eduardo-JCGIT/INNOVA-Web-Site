@@ -7,10 +7,10 @@ import dte_2hov from "../../../img/index/cards_ds/dte_2hov.png";
 function CardDte() {
   const [dte, setDte] = useState([
     {
-      namedte: "Aída Rosalba Arroyo Garcés",
+      namedte: "Aurora Rodríguez",
       testdte:
-        "La docente Aída no solo enseña psicología, sino que la vive. Su pasión por la materia es contagiosa, y cada clase es una inmersión en el fascinante mundo de la mente humana.",
-      licdte: "Licenciada en Psicología",
+        "Es un honor formar parte del gran cuerpo docente, el cual me permite compartir conocimientos, proyectos y experiencias en cada clase, me llena de orgullo, cada aprendizaje significativo que enriquece la formación con mis alumnos.",
+      licdte: "Lic. Finanzas y Contabilidad | Maestría en Impuestos",
       sededte: "Docente",
       imgdte1: dte_1vi,
       imgdte2: dte_1hov,
@@ -19,7 +19,7 @@ function CardDte() {
       namedte: "Daniel Can",
       testdte: "Como docente universitario de INNOVA, mi labor ha sido profundamente gratificante. Más allá de enseñar conceptos legales, busco inspirar a los estudiantes a ser profesionales éticos, comprometidos con la justicia y la responsabilidad social.",
       licdte: "Licenciado en Derecho",
-      sededte: "Campeche",
+      sededte: "Docente",
       imgdte1: dte_2vi,    
       imgdte2: dte_2hov,
     },

@@ -10,7 +10,7 @@ import Desa from "./components/desa/Desa";
 import InfoLic from "./components/infacad/lic/InfoLic";
 import Inscription from "./components/inscription/Inscription";
 import Innovateam from "./components/innovateam/Innovateam";
-import NotAvailable from "./components/noavilable/NotAvailable";
+import NotAvailable from "./components/noavailable/NotAvailable";
 
 const App = () => {
 

@@ -71,12 +71,14 @@ function Nav (){
         <div className='position-fixed-nav-global'>
          <div className="header_nav">
          <nav className="container_nav">
+         <Link to='/' className="nav_router">
             <img src={innova3png} alt={innova3png} className="nav_inv"/>
+            </Link>
             <div className={showMenu ? 'nav_menu show_menu' : 'nav_menu'}>
                <ul className="nav_ul">
                   <li className="nav_li">
                   <Link to='/' className="nav_router">
-                 <img src={innova3png} alt={innova3png} className="nav_inv nav_inv_hdn"/>
+                 <img src={innova3png} alt="Innova Logo" className="nav_inv nav_inv_hdn"/>
                  </Link>
                   </li>
                   <li className="nav_li">
@@ -87,7 +89,6 @@ function Nav (){
 
                   <li className="nav_li ">
                         <div className='nav_router'>
-
                         <div className='dis_mobile_submenu' onClick={touchMenu} >
                         <span>Oferta Academica</span><span><RiArrowDropDownLine className={`icon_drop_submenu ${setAvailableMenu ? 'rotate' : ''}`}/></span> 
                         </div>
@@ -96,7 +97,7 @@ function Nav (){
                            <Link to="/Licenciaturas"> <li className='drop_li_of'><span><TiChevronRight /></span> Licenciaturas</li></Link> 
                            <Link to="/Maestrias"><li className='drop_li_of'><span><TiChevronRight /></span> Maestrías</li></Link> 
                            <Link to="/Doctorados"><li className='drop_li_of'><span><TiChevronRight /></span> Doctorados</li></Link>
-                           <Link to="/Especialidades">  <li className='drop_li_of'><span><TiChevronRight /></span> Especialidades</li></Link> 
+                           <Link to="/Especialidades"><li className='drop_li_of'><span><TiChevronRight /></span> Especialidades</li></Link> 
                         </ul>
                   </li>
 

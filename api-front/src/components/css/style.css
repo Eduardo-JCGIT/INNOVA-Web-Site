@@ -62,7 +62,6 @@
   }
 
   /*Oferta academica, seccion de menu*/
-
   
   .drop_nav_of{
     display: none;
@@ -209,10 +208,7 @@
   }
 
   /* Desactivar el hover en pantallas pequeñas */
-  .nav_li:hover .submenu {
-    pointer-events: none !important; 
-   
-  }
+ 
 
   .submenu  {
     display: none;

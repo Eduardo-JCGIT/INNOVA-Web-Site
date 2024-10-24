@@ -9,8 +9,8 @@ function CardAlu() {
     {
       namealu: "Mario González",
       testalu:
-        "Como estudiante de la Universidad INNOVA, he tenido una experiencia educativa excepcional. La flexibilidad de los horarios y la modalidad en línea me permiten balancear mis estudios con otras responsabilidades personales y profesionales.",
-      licalu: "Licenciatura en Sistemas Computacionales",
+        "Para mí ha sido un honor estudiar en esta universidad, los docentes están muy preparados para enseñar y para que nosotros podamos dar un gran paso al profesionalismo. Cada persona que integra la sociedad de INNOVA se ha encargado de dar muy buen seguimiento en cuanto a lo académico se trata.",
+      licalu: "Licenciatura en Contabilidad",
       sedealu: "Estudiante",
       imgalu1: alu_1vi,
       imgalu2: alu_1hov,
