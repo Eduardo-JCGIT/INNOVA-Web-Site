@@ -12,6 +12,10 @@ function Desa() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() =>{
+    document.title = 'Proyecto DESA | Universidad INNOVA';
+  },[]);
   return (
     <div>
       <header>

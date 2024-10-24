@@ -10,13 +10,14 @@ import Desa from "./components/desa/Desa";
 import InfoLic from "./components/infacad/lic/InfoLic";
 import Inscription from "./components/inscription/Inscription";
 import Innovateam from "./components/innovateam/Innovateam";
-import NotAvilable from "./components/noavilable/NotAvilable";
+import NotAvailable from "./components/noavilable/NotAvailable";
 
-function App() {
+const App = () => {
+
   return (
       <Routes>
 
-        <Route path="/" element={<Ind />} />
+        <Route path="/" element={<Ind />}/>
         <Route path="/Licenciaturas" element={<Lic />} />
         <Route path="/Maestrias" element={<Mtr />} />
         <Route path="/Doctorados" element={<Doc />} />
@@ -31,7 +32,7 @@ function App() {
         {/*Equipo INNOVA */}
         <Route path="/Equipo-INNOVA" element={<Innovateam/>}/>
         {/*Pagina no disponible */}
-        <Route path="/404" element={<NotAvilable/>}/>
+        <Route path="/Mantenimiento" element={<NotAvailable/>}/>
       </Routes>
   );
 }

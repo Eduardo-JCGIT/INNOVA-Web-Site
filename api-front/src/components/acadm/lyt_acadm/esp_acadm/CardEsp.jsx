@@ -15,7 +15,7 @@ function CardEsp() {
       
       {/*Fondo de la imagen*/}
       {ObjEsp.map((item) => (
-        <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
+        <a href={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.idesp} className="card-container-ind-esp">
 
         {/*Tamaño de la carta*/}

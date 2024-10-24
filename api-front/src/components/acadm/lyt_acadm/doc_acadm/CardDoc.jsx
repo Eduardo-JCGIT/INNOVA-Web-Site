@@ -15,7 +15,7 @@ function CardDoc() {
       
       {/*Fondo de la imagen*/}
       {ObjDoc.map((item) => (
-        <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
+        <a href={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.iddoc} className="card-container-ind-doc">
 
         {/*Tamaño de la carta*/}

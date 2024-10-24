@@ -82,11 +82,12 @@
     border-radius: 10px;
     min-width: 200px;
     box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
   }
   
   .nav_li:hover .submenu {
     display: block;
+    transition: all 1s ease;
   }
 
   .submenu.active {
@@ -178,10 +179,6 @@
     flex-direction: column;
   }
 
-  .nav_li:hover .drop_nav_of  {
-    transition: all 1s ease-in-out;
-    padding: 0px 0px 0px 0px;
-  }
   
   .drop_nav_of{
     position: relative;
@@ -192,17 +189,6 @@
     transition: max-height 0.5s ease-out;
   }
 
-  .drop_nav_of .drop_li_of:hover{
-    background-color: var(--white3);
-    border-radius: 0;
-    transition: all 0.5;
-  }
-
-
-  .drop_nav_of_mobile{
-    display: none;
-
-  }
 
   .dis_mobile_submenu{
     display: flex;
@@ -217,13 +203,18 @@
   .icon_drop_submenu.rotate{
     transform: rotate(180deg);
   }
-
-  /* Desactivar el hover en pantallas pequeñas */
-  .nav_li .submenu  {
-    display: block;
+  
+  .drop_li_of span{
+    display: none;
   }
 
-  .nav_li:hover .submenu  {
+  /* Desactivar el hover en pantallas pequeñas */
+  .nav_li:hover .submenu {
+    pointer-events: none !important; 
+   
+  }
+
+  .submenu  {
     display: none;
   }
 
@@ -721,9 +712,16 @@
   width: 10em;
 }
 
+.icon_foot_dsg_col {
+  display: flex;
+  flex-direction: row;
+}
+
 .icon_foot_dsg_col .icon_foot_dsg{
   margin: 0 10px;
 }
+
+
 .icon_foot_dsg {
   color: var(--blue2);
   font-size: 1.4em;
@@ -746,6 +744,12 @@
   position: relative;
   transform: translate(0px, -5px);
 }
+
+.footer_sec_manu_lop li{
+  color: var(--blue2);
+  text-decoration: none;
+}
+
 
 /*Oferta academicas licenciatura*/
 

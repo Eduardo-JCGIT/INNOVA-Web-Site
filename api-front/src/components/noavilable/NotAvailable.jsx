@@ -3,11 +3,15 @@ import React, { useEffect } from 'react';
 import Nav from "../global/Nav";
 import FoxAnimate from "../spring/animate/FoxAnimate";
 
-const NotAvilable = () => {
+const NotAvailable = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() =>{
+    document.title = 'No disponible :( | Universidad INNOVA';
+  },[]);
 
   return (
     <div>
@@ -30,4 +34,4 @@ const NotAvilable = () => {
   );
 };
 
-export default NotAvilable;
+export default NotAvailable;

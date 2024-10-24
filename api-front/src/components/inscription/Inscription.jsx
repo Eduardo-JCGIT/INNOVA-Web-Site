@@ -12,6 +12,12 @@ function Inscription() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
+      useEffect(() =>{
+        document.title = 'Inscripciones | Universidad INNOVA';
+      },[]);
+
+
   return (
     <div>
       <header>

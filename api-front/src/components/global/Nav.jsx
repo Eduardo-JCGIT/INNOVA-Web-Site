@@ -5,6 +5,7 @@ import { CgClose } from "react-icons/cg";
 import { CgFormatJustify } from "react-icons/cg";
 import { BsFillCaretRightFill } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { TiChevronRight } from "react-icons/ti";
 
 
 function Nav (){
@@ -92,10 +93,10 @@ function Nav (){
                         </div>
                         </div>
                         <ul className={`drop_nav_of submenu ${AvailableMenu ? 'active' : ''}`}>
-                           <Link to="/Licenciaturas"> <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Licenciaturas</li></Link> 
-                           <Link to="/Maestrias"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Maestrías</li></Link> 
-                           <Link to="/Doctorados"><li className='drop_li_of'><span><BsFillCaretRightFill /></span> Doctorados</li></Link>
-                           <Link to="/Especialidades">  <li className='drop_li_of'><span><BsFillCaretRightFill /></span> Especialidades</li></Link> 
+                           <Link to="/Licenciaturas"> <li className='drop_li_of'><span><TiChevronRight /></span> Licenciaturas</li></Link> 
+                           <Link to="/Maestrias"><li className='drop_li_of'><span><TiChevronRight /></span> Maestrías</li></Link> 
+                           <Link to="/Doctorados"><li className='drop_li_of'><span><TiChevronRight /></span> Doctorados</li></Link>
+                           <Link to="/Especialidades">  <li className='drop_li_of'><span><TiChevronRight /></span> Especialidades</li></Link> 
                         </ul>
                   </li>
 
@@ -112,13 +113,13 @@ function Nav (){
                   </li>
 
                   <li className="nav_li">
-                  <Link to="/404" className="nav_router">
+                  <Link to="/Mantenimiento" className="nav_router">
                         <span>Maestros</span>
                   </Link>
                   </li>
 
                   <li className="nav_li">
-                  <Link to="/404" className="nav_router">
+                  <Link to="/Mantenimiento" className="nav_router">
                         <span>Alumnos</span>
                   </Link>
                   </li>

@@ -9,6 +9,11 @@ function Esp(){
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
+      useEffect(() =>{
+        document.title = 'Especialidades | Universidad INNOVA';
+      },[]);
+
     return(
         <div>
             <header>

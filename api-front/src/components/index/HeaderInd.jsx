@@ -3,6 +3,7 @@ import item1 from '../../img/item/acad_of/lic.png'
 import item2 from '../../img/item/acad_of/mtr.png'
 import item3 from '../../img/item/acad_of/doc.png'
 import item4 from '../../img/item/acad_of/esp.png'
+import { Link } from 'react-router-dom'
 
 function HeaderInd() {
     return(
@@ -21,8 +22,8 @@ function HeaderInd() {
                 <br/>
 
                 <div className='btn-cont1'>
-                    <button className='poppins-semibold '>Proceso de inscripción</button>
-                    <button className='poppins-semibold '>Asesor académico</button>
+                    <Link to="/Inscripciones" target="_blank" rel="noopener noreferrer"><button className='poppins-semibold '>Proceso de inscripción</button></Link>
+                    <a href="https://wa.me/message/DQ76YHFKDBXGN1" target="_blank" rel="noopener noreferrer"><button className='poppins-semibold '>Asesor académico</button></a>
                 </div>
                 </div>
                 

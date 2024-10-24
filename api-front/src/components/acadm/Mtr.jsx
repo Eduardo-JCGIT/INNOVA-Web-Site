@@ -8,6 +8,11 @@ function Mtr (){
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+
+      useEffect(() =>{
+        document.title = 'Maestría | Universidad INNOVA';
+      },[]);
+
     return(
         <div>
             <header>

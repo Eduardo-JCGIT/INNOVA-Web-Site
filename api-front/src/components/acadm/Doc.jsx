@@ -10,6 +10,10 @@ function Doc() {
         window.scrollTo(0, 0);
       }, []);
 
+      useEffect(() =>{
+        document.title = 'Doctorados | Universidad INNOVA';
+      },[]);
+
     return(
         <div>
             <header>

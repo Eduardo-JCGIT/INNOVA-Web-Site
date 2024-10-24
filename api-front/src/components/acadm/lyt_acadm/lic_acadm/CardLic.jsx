@@ -14,7 +14,7 @@ function CardLic() {
       
       {/*Fondo de la imagen*/}
       {ObjLic.map((item) => (
-       <a to={item.pdfof} target="_blank" rel="noopener noreferrer" >
+       <a href={item.pdfof} target="_blank" rel="noopener noreferrer" >
       <div key={item.idlic} className="card-container-ind">
 
         {/*Tamaño de la carta*/}

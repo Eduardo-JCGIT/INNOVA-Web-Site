@@ -10,6 +10,9 @@ import innova3 from "../../img/icon/innova3.png";
 import icon1ftr from "../../img/icon/rvoe.png";
 import icon2ftr from "../../img/icon/googlewfe.png";
 import { SiGithub } from "react-icons/si";
+import { FaTiktok } from "react-icons/fa";
+
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,10 +24,26 @@ function Footer() {
             <h4>NUESTRAS REDES SOCIALES</h4>
             <br />
             <div className="icon_foot_dsg_col">
+            <div><a href="https://www.facebook.com/UniversidadInnovaCampeche" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="icon_foot_dsg"/>
+            </a>
+            </div>
+            <div>
+            <a href="https://www.instagram.com/innovacamp_?igsh=MXM2YTl2MWxlaHp4dw==" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram className="icon_foot_dsg"/>
+            </a>
+            </div>
+            <div><a href="https://wa.me/message/DQ76YHFKDBXGN1" target="_blank" rel="noopener noreferrer">
             <RiWhatsappFill className="icon_foot_dsg"/>
+            </a></div>
+            <div><a href="https://www.youtube.com/@mentesinnovadoras2024" target="_blank" rel="noopener noreferrer">
             <FaYoutube className="icon_foot_dsg"/>
+            </a></div>
+            <div>
+              <a href="https://www.tiktok.com/@innova_campeche?_t=8qlPUf81L1R&_r=1" target="_blank" rel="noopener noreferrer">
+              <FaTiktok className="icon_foot_dsg"/>
+              </a>
+            </div>
             </div>
             <br />
             <h4>VALIDACIÓN Y HERRAMIENTAS OFICIALES</h4>
@@ -38,15 +57,31 @@ function Footer() {
           <div className="footer_column_sec">
             <h4>EXPLORA</h4>
             <br />
-            <ul>
+            <ul className="footer_sec_manu_lop">
+              <Link to="/" >
               <li>Inicio</li>
-              <li>Oferta Académica</li>
+              </Link>
+              <Link to="/Licenciaturas">
+              <li>Licenciaturas</li>
+              </Link>
+              <Link to="/Inscripciones">
               <li>Inscripciones</li>
+              </Link>
+              <Link to="/Desa">
               <li>Proyecto DESA</li>
+              </Link>
+              <Link to="/Mantenimiento" >
               <li>Maestros</li>
+              </Link>
+              <Link to="/Mantenimiento" >
               <li>Alumnos</li>
+              </Link>
+              <Link to="/Equipo-INNOVA">
               <li>Equipo INNOVA</li>
+              </Link>
+              <Link to="/Contacto">
               <li>Contacto</li>
+              </Link>
             </ul>
           </div>
 
@@ -75,7 +110,7 @@ function Footer() {
         <hr />  
         <div className="footer_column_glob2">
         <div className="sec_git_dev">
-        <p>Developer by Eduardo Jiménez</p> 
+        <p>Developed by Eduardo Jiménez</p> 
         <a href="https://github.com/Eduardo-JCGIT" target="_blank"><SiGithub /></a>
         </div>
         <p>

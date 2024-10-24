@@ -7,7 +7,17 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import { AnimatedModalWrapper } from '../spring/animate/AnimatedModalWrapper'; // Asegúrate de ajustar la ruta
 
+
 function InnovaTeam() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() =>{
+    document.title = 'Equipo INNOVA | Universidad INNOVA';
+  },[]);
+
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = (item) => {

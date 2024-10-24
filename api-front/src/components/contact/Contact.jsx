@@ -5,8 +5,19 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { useEffect } from "react";
 
 function Contact() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
+  useEffect(() =>{
+    document.title = 'Contacto | Universidad INNOVA';
+  },[]);
+
+
   return (
     <div>
       <header>
