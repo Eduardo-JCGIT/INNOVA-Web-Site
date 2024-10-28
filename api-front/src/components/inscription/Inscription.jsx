@@ -59,7 +59,7 @@ function Inscription() {
           <h2 className="col_txt_hd2"><span><GrContactInfo /> </span> Solicita información.</h2>
           <p>
             Regálanos un Whatsapp para brindarte toda la información, costos,
-            modalidades, promociones vigentes. datos de depósito, etc.
+            modalidades, promociones vigentes. Datos de depósito, etc.
           </p>
           <br />
           <div className='btn-cont1'>
@@ -73,8 +73,7 @@ function Inscription() {
 
           <h2 className="col_txt_hd2"><span><MdOutlinePayments /> </span> Realiza el pago de tu inscripción.</h2>
           <p>
-            Puedes pagar por medio de transferencia bancaria, deposito(oxxo,
-            willis, banco) una vez realizado envía tu comprobante al correo que
+            Puedes pagar por medio de transferencia bancaria, deposito (tiendas de conveniencia y farmacias) una vez realizado envía tu comprobante al correo que
             se te indica. Los datos de deposito se te darán en el primer paso.
           </p>
 

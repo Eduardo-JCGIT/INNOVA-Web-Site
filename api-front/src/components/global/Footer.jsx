@@ -93,13 +93,13 @@ function Footer() {
                 <BsTelephoneFill className="icon_foot_dsg"/> 981 813 63 02
               </li>
               <li>
-                <TbMailFilled className="icon_foot_dsg"/> escolar.innova@gmail.com
+                <TbMailFilled className="icon_foot_dsg"/> gestor.edu.innova@gmail.com
               </li>
               <li>
-                <FaClock className="icon_foot_dsg"/> lunes a viernes : 7:00 am - 3:00 pm
+                <FaClock className="icon_foot_dsg"/> lunes a viernes : 8:00 am - 3:00 pm
               </li>
               <li>
-                <SiGooglemaps className="icon_foot_dsg"/> C. 49 38, Barrio de Guadalupe, 24010 San
+                <SiGooglemaps className="icon_foot_dsg"/> C. 49, 38, Barrio de Guadalupe, 24010 San
                 Francisco de Campeche, Camp.
               </li>
             </ul>
